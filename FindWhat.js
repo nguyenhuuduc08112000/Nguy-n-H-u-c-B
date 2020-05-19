@@ -500,7 +500,7 @@ let visit = [
     'hashtag':"#cvbachthao, #fun",
     'content': "Vườn bách thảo Hà Nội hay Công viên Bách Thảo là một công viên cây xanh nằm ở phía tây bắc thủ đô Hà Nội, được thành lập từ những năm đầu người Pháp đặt chân đến Việt Nam trong cuộc xâm lăng đô hộ và thuộc địa. Hiện nay vườn được ví như lá phổi xanh của Hà Nội, nơi những người yêu thiên nhiên được đắm mình trong màu xanh cây lá và những âm thanh của rừng, với những cây cổ thụ lớn bằng vòng tay mấy người ôm là chứng nhân của nhiều biến cố trong lịch sử thủ đô",
     'like': "0",
-    'address': "3 Hoàng Hoa Thám, Ngọc Hồ, Ba Đình, Hà Nội",
+    'address': "3 Hoàng Hoa Thám, Ngọc Hồi, Ba Đình, Hà Nội",
     'time': "6h-21h",
 },
 {
