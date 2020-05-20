@@ -51,7 +51,7 @@
 
 .modal-footer {
     padding: 2px 12px;
-    justify-content: space-between;
+    justify-content: center;
 }
 .modal-tag a{
     border: 1px solid black;
