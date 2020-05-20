@@ -1,3 +1,9 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+}
+
 @media(min-width:1300px){
   .navbar{
       height: 45px !important;
@@ -292,8 +298,20 @@ margin:10px 0px;
 .container p{
 overflow: hidden;
 }
-.container h5 {
+.container h3 {
+  font-size: 23px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   text-align: center;
+}
+.container h5 { 
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* NguyenHuuDuc */
