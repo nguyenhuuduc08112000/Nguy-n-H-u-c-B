@@ -3,9 +3,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-.container{
-    max-width: 1500px;
-}
+
 .tour-deck {
     display: flex;
     justify-content: center;
@@ -13,7 +11,17 @@
     flex-flow: row wrap;
 }
 .tour {
-    padding: 20px 0px 50px 0px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
 }
 .img-nhd {
     height: 200px;
@@ -75,7 +83,22 @@
 .left-incard-content-wrapper p i {
     color: palevioletred;
 }
-.incrad-wrapper {
+.schedule-nhd {
     display: flex;
     justify-content: center;
+}
+h3 {
+    font-size: 23px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+h5 {
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
