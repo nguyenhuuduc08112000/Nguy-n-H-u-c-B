@@ -786,12 +786,15 @@ display: none;
 .boc-noi-dung p{
   text-align: justify;
 }
+.boc-noi-dung h3, h4 {
+  margin-top: 2.25rem;
+}
 .schedule-nhd {
   display: flex;
   justify-content: center;
 }
 h3 {
-  font-size: 23px;
+  font-size: 30px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

@@ -803,41 +803,54 @@ const components = {
                                 <div class="modal-content">
                                 <!--Body-->
                                 <div class="modal-body mb-0 p-0">
-                                    <div class="content-cac-ban-oi">
-                                        <h1 style="text-align: center;">Lịch Trình</h1>
-                                        <div class="boc-noi-dung" style="text-align: justify;">
-                                            <p>Thời tiết khí hậu ở Hà Nội được chia ra làm 4 mùa rõ rệt: Xuân – Hạ – Thu – Đông, mỗi mùa lại có những vẻ đẹp đặc trưng riêng mà không giống bất cứ mùa nào. Mùa xuân với những cơn mua phùn nhỏ kéo dài, thời tiết ấm áp tạo điều kiện cho cây cối phát triển và nảy mầm. Mùa hè với tiết trời khá oi bức, những đổi lại bạn sẽ được nghe những tiếng ve râm ran vô cùng thú vị. Mùa thu là khoảnh khắc giao mùa rõ rệt, với các thời tiết hơi se lạnh, mát mẻ, tạo cảm giác dễ chịu, rất thích hợp để đi dạo, chính vì thế thời gian này được xem là thời điểm du lịch Hà Nội lý tưởng nhất. Còn mùa đông ở Hà Nội khá hanh khô và lạnh buốt, nhiều khi nhiệt độ khí hậu có thể giảm xuống mức dưới 10 độ C nên bạn cần chú ý mang đầy đủ quần áo ấm nếu du lịch Hà Nội vào thời điểm này nhé</p>
-                                            <h3>Phương tiện du lịch tới Hà Nội</h3>
-                                            <p>Có rất nhiều phương tiện di chuyển di chuyển tới Hà Nội như: Xe máy, ô tô khách, máy bay, tàu hỏa… Bạn có thể dựa vào vị trí bạn đang ở và điều kiện kinh tế của mình mà lựa chọn phương tiện sao cho phù hợp</p>
-                                            <p>Xe máy, ô tô riêng: Thích hợp với những bạn nào ở ngoại thành Hà Nội hoặc ở những vùng lân cận.</p>
-                                            <p>Xe khách: Hà Nội là trung tâm của miền Bắc, vì thế cho dù bạn ở tình nào thì cũng có xe khách đi đến Hà Nội, bạn không phải lo nhé.</p>
-                                            <p>Tàu hỏa: Đối với các du khách ở khu vực miền Nam hay miền Trung thì có thể sử dụng tàu hỏa để làm phương tiện di chuyển tới Hà Nội.</p>
-                                            <p> Máy bay: Nếu bạn có điều kiện kinh tế và muốn tiết kiệm thời gian di chuyển tới Hà Nội thì có thể sử dụng máy bay. Các chuyến bay tới Hà Nội thường đáp ở sân bay quốc tế Nội Bài, cách trung tâm thành phố Hà Nội khoảng 20km. Từ sân bay, bạn có thể bắt taxi để đi vào trung tâm thành phố với giá khoảng 200.000VND. Hoặc để tiết kiệm tiền, bạn cũng có thể sử dụng tuyến bus 07, 17 để vào thành phố nhé, đó là kinh nghiệm du lịch Hà Nội 1 ngày trọn vẹn, hoàn hảo.</p>
+                                    <h1 style="text-align: center;">Lịch Trình</h1>
+                                    <div class="boc-noi-dung" style="text-align: justify;">
+                                        <p>Thời tiết khí hậu ở Hà Nội được chia ra làm 4 mùa rõ rệt: Xuân – Hạ – Thu – Đông, mỗi mùa lại có những vẻ đẹp đặc trưng riêng mà không giống bất cứ mùa nào. Mùa xuân với những cơn mua phùn nhỏ kéo dài, thời tiết ấm áp tạo điều kiện cho cây cối phát triển và nảy mầm. Mùa hè với tiết trời khá oi bức, những đổi lại bạn sẽ được nghe những tiếng ve râm ran vô cùng thú vị. Mùa thu là khoảnh khắc giao mùa rõ rệt, với các thời tiết hơi se lạnh, mát mẻ, tạo cảm giác dễ chịu, rất thích hợp để đi dạo, chính vì thế thời gian này được xem là thời điểm du lịch Hà Nội lý tưởng nhất. Còn mùa đông ở Hà Nội khá hanh khô và lạnh buốt, nhiều khi nhiệt độ khí hậu có thể giảm xuống mức dưới 10 độ C nên bạn cần chú ý mang đầy đủ quần áo ấm nếu du lịch Hà Nội vào thời điểm này nhé</p>
+                                        <h3>Phương tiện du lịch tới Hà Nội</h3>
+                                        <p>Có rất nhiều phương tiện di chuyển di chuyển tới Hà Nội như: Xe máy, ô tô khách, máy bay, tàu hỏa… Bạn có thể dựa vào vị trí bạn đang ở và điều kiện kinh tế của mình mà lựa chọn phương tiện sao cho phù hợp</p>
+                                        <li>                                                   
+                                            <strong>Xe máy, ô tô riêng:</strong>
+                                            Thích hợp với những bạn nào ở ngoại thành Hà Nội hoặc ở những vùng lân cận.
+                                        </li>
+                                        <li>
+                                            <strong>Xe khách:</strong> 
+                                            Hà Nội là trung tâm của miền Bắc, vì thế cho dù bạn ở tình nào thì cũng có xe khách đi đến Hà Nội, bạn không phải lo nhé.
+                                        </li>
+                                        <li>
+                                            <strong>Tàu hỏa:</strong>
+                                            Đối với các du khách ở khu vực miền Nam hay miền Trung thì có thể sử dụng tàu hỏa để làm phương tiện di chuyển tới Hà Nội.
+                                        </li>
+                                        <li>
+                                            <strong>Máy bay:</strong>
+                                            Nếu bạn có điều kiện kinh tế và muốn tiết kiệm thời gian di chuyển tới Hà Nội thì có thể sử dụng máy bay. Các chuyến bay tới Hà Nội thường đáp ở sân bay quốc tế Nội Bài, cách trung tâm thành phố Hà Nội khoảng 20km. Từ sân bay, bạn có thể bắt taxi để đi vào trung tâm thành phố với giá khoảng 200.000VND. Hoặc để tiết kiệm tiền, bạn cũng có thể sử dụng tuyến bus 07, 17 để vào thành phố nhé, đó là kinh nghiệm du lịch Hà Nội 1 ngày trọn vẹn, hoàn hảo.
+                                        </li>                        
+                                        <h3>Lịch trình du lịch Hà Nội 1 ngày</h3>
+                                        <p>Vì thời gian du lịch Hà Nội của bạn chỉ có 1 ngày, nên bận cần phải xuất phát từ sớm để có nhiều thời gian khám phá Hà Nội hơn nhé. Tùy vào điểm đến mà bạn căn giờ đi sao cho khoảng 6h tới Hà Nội là được.</p>
+                                        <h5>
+                                            <strong>Buổi sáng:</strong>
+                                        </h5>
+                                        <li>6h: Đầu tiên, khi đặt chân tới Hồ Gươm, bạn tìm quán bún chả – món ăn ngon, nổi tiếng ở Hà Nội để thưởng thức hương vị tuyệt vời. Ăn xong bạn ghé thăm tới quan cà phê hoặc trà đá để tận hưởng được cuộc sống của người dân Hà Nội.
+                                        Sau đó, bạn đi tìm khách sạn để nghỉ ngơi ở đây một tối nhé. Bạn nên tìm những khách sạn nằm ngoài khu vực Hồ Gươm và Phố Cổ, bởi giá phòng ở đây cao hơn những địa điểm khác.</li>
+                                        <li>8h: Bạn tiếp tục lên đường ghé thăm đến Lăng Bác. Tuy nhiên bạn nhớ phải gửi xe trước khi vào viếng Lăng nhé. Tuy nhiên, lăng Bác đóng cửa vào thứ 2 và thứ 6 hàng tuần, nên bạn cần chú ý đến thời gian đi du lịch. Trong trường hợp bạn du lịch Hà Nội một ngày đúng vào ngày Lăng Bác không mở cửa thì có thể đến chùa Một Cột, nằm ngay sau Lăng và chụp những bức hình lưu niệm ở đây cũng rất tuyệt vời.</li>
                                         
-                                            <h3>Lịch trình du lịch Hà Nội 1 ngày</h3>
-                                            <p>Vì thời gian du lịch Hà Nội của bạn chỉ có 1 ngày, nên bận cần phải xuất phát từ sớm để có nhiều thời gian khám phá Hà Nội hơn nhé. Tùy vào điểm đến mà bạn căn giờ đi sao cho khoảng 6h tới Hà Nội là được.</p>
-                                            <h5>Buổi sáng:</h5>
-                                            <p> 6h: Đầu tiên, khi đặt chân tới Hồ Gươm, bạn tìm quán bún chả – món ăn ngon, nổi tiếng ở Hà Nội để thưởng thức hương vị tuyệt vời. Ăn xong bạn ghé thăm tới quan cà phê hoặc trà đá để tận hưởng được cuộc sống của người dân Hà Nội.
-                                            Sau đó, bạn đi tìm khách sạn để nghỉ ngơi ở đây một tối nhé. Bạn nên tìm những khách sạn nằm ngoài khu vực Hồ Gươm và Phố Cổ, bởi giá phòng ở đây cao hơn những địa điểm khác.</p>
-                                            <p>8h: Bạn tiếp tục lên đường ghé thăm đến Lăng Bác. Tuy nhiên bạn nhớ phải gửi xe trước khi vào viếng Lăng nhé. Tuy nhiên, lăng Bác đóng cửa vào thứ 2 và thứ 6 hàng tuần, nên bạn cần chú ý đến thời gian đi du lịch. Trong trường hợp bạn du lịch Hà Nội một ngày đúng vào ngày Lăng Bác không mở cửa thì có thể đến chùa Một Cột, nằm ngay sau Lăng và chụp những bức hình lưu niệm ở đây cũng rất tuyệt vời.</p>
-                                            
-                                            <p>9h: Sau khi ghé thăm Lăng Bác xong, bạn tiếp tục hành trình du lịch Hà Nội 1 ngày đầy thú vị: Đi tới Văn Miếu Quốc Tử Giám ở gần đó, cách Lăng Bác chỉ khoảng 1km, nên rất thuận tiện cho việc di chuyển. Nếu bạn không rõ đường thì hãy hỏi người dân ở xung quanh đây để được chỉ đường cụ thể hơn nhé.
-                                            Sau đó bạn tham quan nhanh chóng, rồi đi thăm chùa Trấn Quốc (Nằm cách Lăng 2,5km) – Đây là ngôi chùa lâu đời và nổi tiếng nhất ở Hà Nội.</p>
-                                            <p>10h30: Rời khỏi chùa Trấn Quốc, tiếp tục đến Hồ Tây, cách đó khoảng 4km để tận hưởng không gian thiên nhiên trong lành, với những cảnh đẹp của hồ cũng rất hấp dẫn. Nhưng trên đường di chuyển tới Hồ Tây gặp khá nhiều chốt công an, bạn cần chú ý đường đi, chấp hành các luật an toàn giao thông để tránh gặp rắc rối với các chú giao thông nhé.</p>
-                                            
-                                            <p>12h: Dừng chân nghỉ ngơi tại Hồ Tây và thưởng thức món phở bò hoặc phở cuốn cực nổi tiếng của Hà Nội nằm ngay hồ Trúc Bạch (Ngay sát Hồ Tây). Hoặc thưởng thức kem Hồ Tây cũng là trải nghiệm rất tuyệt vời đấy.</p>
-                                            
-                                            <h5>Buổi chiều và tối:</h5>
-                                            
-                                            <p>13h30: Tiếp tục lịch trình du lịch Hà Nội 1 ngày vui vẻ, giá rẻ: Đến đầu giờ chiều, bạn lên xe và đi tham quan tới bảo tàng Dân Tộc Học ở phố Nguyễn Văn Huyên (Cầu Giấy) để có cơ hội khám phá và tìm hiểu về văn hóa lịch sử của người dân Việt Nam.</p>
-                                            
-                                            <p>15h: Bạn quay lại Hồ Gươm để đi dạo, tản bộ và thưởng thức rất nhiều các món ăn ngon, hấp dẫn (Buổi sáng thường không có gì). Bạn tìm một chỗ gửi xe quanh đó rồi tham quan đền Ngọc Sơn, ngắm cụ rùa. Sau đó bạn đi tới phố Cổ, để khám phá cuộc sống phố xá nhộn nhịp ở Hà Nội.</p>
-                                            
-                                            <p>17h30: Quay trở lại khách sạn, tắm rửa, ăn tối rồi nghỉ ngơi một chút để lấy sức tối đi dạo.</p>
-                                            
-                                            <p>20h: Nếu bạn đi du lịch Hà Nội 1 ngày cuối tuần (t6, t7, cn) thì có thể ghé thăm chợ đêm, nằm gần Hồ Gươm. Tại chợ bạn có thể hòa mình vào cuộc sống buôn bán về đêm sôi nổi, tấp nập và mua sắm những món đồ handmade, đồ linh tinh hay một số món đồ Second Hand cũng khá hay nhé, bên cạnh đó vẫn có rất nhiều những gian hàng bán đồ quần áo, mỹ phẩm, phụ kiện… cho bạn thỏa sức mua sắm.</p>
-                                        </div>
-                                    </div>       
+                                        <li>9h: Sau khi ghé thăm Lăng Bác xong, bạn tiếp tục hành trình du lịch Hà Nội 1 ngày đầy thú vị: Đi tới Văn Miếu Quốc Tử Giám ở gần đó, cách Lăng Bác chỉ khoảng 1km, nên rất thuận tiện cho việc di chuyển. Nếu bạn không rõ đường thì hãy hỏi người dân ở xung quanh đây để được chỉ đường cụ thể hơn nhé.
+                                        Sau đó bạn tham quan nhanh chóng, rồi đi thăm chùa Trấn Quốc (Nằm cách Lăng 2,5km) – Đây là ngôi chùa lâu đời và nổi tiếng nhất ở Hà Nội.</li>
+                                        <li>10h30: Rời khỏi chùa Trấn Quốc, tiếp tục đến Hồ Tây, cách đó khoảng 4km để tận hưởng không gian thiên nhiên trong lành, với những cảnh đẹp của hồ cũng rất hấp dẫn. Nhưng trên đường di chuyển tới Hồ Tây gặp khá nhiều chốt công an, bạn cần chú ý đường đi, chấp hành các luật an toàn giao thông để tránh gặp rắc rối với các chú giao thông nhé.</li>
+                                        
+                                        <li>12h: Dừng chân nghỉ ngơi tại Hồ Tây và thưởng thức món phở bò hoặc phở cuốn cực nổi tiếng của Hà Nội nằm ngay hồ Trúc Bạch (Ngay sát Hồ Tây). Hoặc thưởng thức kem Hồ Tây cũng là trải nghiệm rất tuyệt vời đấy.</li>
+                                        
+                                        <h5>
+                                            <strong>Buổi chiều và tối:</strong>
+                                        </h5>
+                                        
+                                        <li>13h30: Tiếp tục lịch trình du lịch Hà Nội 1 ngày vui vẻ, giá rẻ: Đến đầu giờ chiều, bạn lên xe và đi tham quan tới bảo tàng Dân Tộc Học ở phố Nguyễn Văn Huyên (Cầu Giấy) để có cơ hội khám phá và tìm hiểu về văn hóa lịch sử của người dân Việt Nam.</li>
+                                        
+                                        <li>15h: Bạn quay lại Hồ Gươm để đi dạo, tản bộ và thưởng thức rất nhiều các món ăn ngon, hấp dẫn (Buổi sáng thường không có gì). Bạn tìm một chỗ gửi xe quanh đó rồi tham quan đền Ngọc Sơn, ngắm cụ rùa. Sau đó bạn đi tới phố Cổ, để khám phá cuộc sống phố xá nhộn nhịp ở Hà Nội.</li>
+                                        
+                                        <li>17h30: Quay trở lại khách sạn, tắm rửa, ăn tối rồi nghỉ ngơi một chút để lấy sức tối đi dạo.</li>
+                                        
+                                        <li>20h: Nếu bạn đi du lịch Hà Nội 1 ngày cuối tuần (t6, t7, cn) thì có thể ghé thăm chợ đêm, nằm gần Hồ Gươm. Tại chợ bạn có thể hòa mình vào cuộc sống buôn bán về đêm sôi nổi, tấp nập và mua sắm những món đồ handmade, đồ linh tinh hay một số món đồ Second Hand cũng khá hay nhé, bên cạnh đó vẫn có rất nhiều những gian hàng bán đồ quần áo, mỹ phẩm, phụ kiện… cho bạn thỏa sức mua sắm.</li>
+                                    </div>     
                                 </div>
                                 <!--Footer-->
                                 <div class="modal-footer flex-column flex-md-row">
@@ -873,20 +886,35 @@ const components = {
                                 <div class="modal-content">
                                 <!--Body-->
                                 <div class="modal-body mb-0 p-0">
-                                    <div class="content-cac-ban-oi">
-                                        <h1 style="text-align: center";>Lịch Trình</h1>
-                                        <div class="boc-noi-dung style="text-align: start;>
-                                            <p>Trong chuyến du lịch chùa Hương mới nhất của mình, mình đã dành trọn vẹn một ngày để khám phá chùa Hương theo lịch trình như sau: Đền Trình - chùa Thiên Trù - động Hương Tích - chùa Tiên Sơn - chùa Thanh Sơn Hương Đài</p>
-                                            <p>7h30 xuất phát tại nội thành Hà Nội theo hướng đi Nguyễn Trãi, 9h30 có mặt tại chùa Hương, mua vé để đi đò.</p>
-                                            <p>10h xuất phát từ bến đò Suối Yến để vào lễ đền Trình.</p>
-                                            <p>Sau đó đi đò trên Suối Yến để vào đến chùa Thiên Trù.</p>
-                                            <p>Sau khi tham quan hết toàn bộ chùa Thiên Trù là khoảng 12h30, đoàn mình ăn trưa ngay tại chân chùa Thiên Trù, đi theo đoàn khá đông nên mình đã liên hệ với nhà hàng ngay đó để đặt cơm trưa.</p>
-                                            <p>14h, mình xuất phát lên động Hương Tích. Do đoàn có trẻ nhỏ nên đã chọn đi cáp treo, di chuyển rất nhanh sẽ đến được động Hương Tích. Đến cổng trời, bạn sẽ đi xuống một bậc thang vài trăm mét để xuống động. Càng xuống sâu, càng mát lạnh và ẩm ướt.</p>
-                                            <p>Sau khi lễ tại động Hương Tích, đi cáp treo về lại Thiên Trù, rồi lên chùa Tiên Sơn.</p>                                                   
-                                            <p>Khoảng 16h, ra bến Thiên Trù, do thời gian vẫn còn khá sớm nên cả đoàn quyết định ngồi đò để vào chùa Thanh Sơn Hương Đài. Đây là một trong những ngôi chùa mà mình thích nhất tại khu danh thắng chùa Hương. Thanh Sơn Hương Đài cực kỳ yên tĩnh và thanh tịnh, với không gian thoáng đãng vô cùng. Đây cũng là nơi mà mình thường xin xăm vào mỗi đầu năm. Ngoài ra còn có động Tiểu Nhi Cầu Tự là nơi để cầu con cái, công danh, sức khỏe.</p>
-                                            <p>18h xuất phát lên xe về Hà Nội.</p>
-                                        </div>
-                                    </div>       
+                                    <h1 style="text-align: center";>Lịch Trình</h1>
+                                    <div class="boc-noi-dung style="text-align: start;>
+                                        <p>Trong chuyến du lịch chùa Hương mới nhất của mình, mình đã dành trọn vẹn một ngày để khám phá chùa Hương theo lịch trình như sau: Đền Trình - chùa Thiên Trù - động Hương Tích - chùa Tiên Sơn - chùa Thanh Sơn Hương Đài</p>
+                                        <li> 
+                                            <strong>7h30:</strong>
+                                            xuất phát tại nội thành Hà Nội theo hướng đi Nguyễn Trãi, 9h30 có mặt tại chùa Hương, mua vé để đi đò.
+                                        </li>
+                                        <li>
+                                            <strong>10h:</strong>
+                                            xuất phát từ bến đò Suối Yến để vào lễ đền Trình. Sau đó đi đò trên Suối Yến để vào đến chùa Thiên Trù.
+                                        </li>
+                                        <li>
+                                            <strong>Sau khi tham quan hết toàn bộ chùa Thiên Trù là khoảng 12h30:</strong>
+                                            đoàn sẽ ăn trưa ngay tại chân chùa Thiên Trù, đi theo đoàn khá đông nên mình đã liên hệ với nhà hàng ngay đó để đặt cơm trưa.
+                                        </li>
+                                        <li>
+                                            <strong>14h:</strong>
+                                            mình xuất phát lên động Hương Tích. Do đoàn có trẻ nhỏ nên đã chọn đi cáp treo, di chuyển rất nhanh sẽ đến được động Hương Tích. Đến cổng trời, bạn sẽ đi xuống một bậc thang vài trăm mét để xuống động. Càng xuống sâu, càng mát lạnh và ẩm ướt.
+                                        </li>
+                                        <li>Sau khi lễ tại động Hương Tích, đi cáp treo về lại Thiên Trù, rồi lên chùa Tiên Sơn.</li>                                                   
+                                        <li>
+                                            <strong>16h:</strong>
+                                            ra bến Thiên Trù, do thời gian vẫn còn khá sớm nên cả đoàn quyết định ngồi đò để vào chùa Thanh Sơn Hương Đài. Đây là một trong những ngôi chùa mà mình thích nhất tại khu danh thắng chùa Hương. Thanh Sơn Hương Đài cực kỳ yên tĩnh và thanh tịnh, với không gian thoáng đãng vô cùng. Đây cũng là nơi mà mình thường xin xăm vào mỗi đầu năm. Ngoài ra còn có động Tiểu Nhi Cầu Tự là nơi để cầu con cái, công danh, sức khỏe.
+                                        </li>
+                                        <li>
+                                            <strong>18h:</strong> 
+                                            xuất phát lên xe về Hà Nội.
+                                        </li>
+                                    </div>    
                                 </div>
                                 <!--Footer-->
                                 <div class="modal-footer flex-column flex-md-row">
@@ -922,21 +950,34 @@ const components = {
                                 <div class="modal-content">
                                 <!--Body-->
                                 <div class="modal-body mb-0 p-0">
-                                    <div class="content-cac-ban-oi">
-                                        <h1 style="text-align: center";>Lịch Trình</h1>
-                                        <div class="boc-noi-dung style="text-align: start;>
-                                            <h3>Sáng: Hà Nội – Chùa Tam Chúc – Ninh Bình ( ăn trưa )</h3>
-                                            <p>07h30-08h00: Xe và hướng dẫn viên đón Quý khách tại phố Cổ và Nhà hát lớn khởi hành đi Hà Nam.</p>
-                                            <p>10h00: Quý khách vào thăm quan và chiêm bái chùa Tam Chúc – Ngôi chùa linh thiêng được xây dựng với hàng nghìn bức tranh bằng đá được ghép tỉ mỉ, cẩn thận bởi đôi bàn tay tài hoa của những người thợ thủ công lành nghề. 12.000 bức tranh đá miêu tả các sự tích của Đức Phật được những người Hồi giáo Indonesia tạc bằng đá núi lửa ở Indonesia sau đó đưa sang Việt Nam. Ngoài ra, Chùa Tam Chúc còn thiết lập một vườn cột kinh khổng lồ với 1.000 cột đá, mỗi cột cao 12m, nặng 200 tấn.</p>
-                                            <p>Quý khách khám phá vẻ đẹp hoang sơ, tự nhiên, sơn thủy hữu tình, đẹp như cõi của mảnh đất được ví như “Vịnh Hạ Long” trên cạn.</p>
-                                            <p>11h30: Quý khách lên xe đi Ninh Bình</p>
-                                            <h3>Chiều: Tràng An – Hà Nội</h3>
-                                            <p>Sau bữa trưa, xe và hướng dẫn đưa du khách ra bến đò Tràng An lên thuyền đi dọc theo suối giữa cánh đồng lúa thăm khu du lịch Tràng An Mới với những dải đá vôi, thung lũng và những sông ngòi đan xen tạo nên một không gian huyền ảo, kỳ bí.</p>                                                   
-                                            <p>Với tuyến này quý khách có cơ hội tham quan 4 hang động tự nhiên trong số những hang động đẹp nhất trong khu du lịch Tràng An là Hang Lấm, Hang Vạng, Hang Thánh Trượt và hang cuối cùng là Hang Đại, quý khách còn dừng chân ghé thăm 3 điểm tâm linh là đền Cao Sơn, đền Suối Tiên và Hành Cung Vũ Lâm. Tuyến này sẽ rất phù hợp với những bạn trẻ, những người thích chụp ảnh Check in, quý khách có thể có những trải nghiệm đầy đủ về hành trình ngồi đò thăm hang cũng như có thể lưu lại những cảm xúc, những bức hình đẹp trong hành trình về thăm Tràng An – Di sản văn hòa và thiên nhiên thế giới!</p>
-                                            <p>17h00: Quý khách lên xe trở về Hà Nội</p>
-                                            <p>19h00: Về đến Hà Nội</p>
-                                        </div>
-                                    </div>       
+                                    <h1 style="text-align: center";>Lịch Trình</h1>
+                                    <div class="boc-noi-dung style="text-align: start;>
+                                        <h3>Sáng: Hà Nội – Chùa Tam Chúc – Ninh Bình ( ăn trưa )</h3>
+                                        <li>
+                                            <strong>07h30-08h00:</strong>
+                                            Xe và hướng dẫn viên đón Quý khách tại phố Cổ và Nhà hát lớn khởi hành đi Hà Nam.
+                                        </li>
+                                        <li>
+                                            <strong>10h00:</strong>
+                                            Quý khách vào thăm quan và chiêm bái chùa Tam Chúc – Ngôi chùa linh thiêng được xây dựng với hàng nghìn bức tranh bằng đá được ghép tỉ mỉ, cẩn thận bởi đôi bàn tay tài hoa của những người thợ thủ công lành nghề. 12.000 bức tranh đá miêu tả các sự tích của Đức Phật được những người Hồi giáo Indonesia tạc bằng đá núi lửa ở Indonesia sau đó đưa sang Việt Nam. Ngoài ra, Chùa Tam Chúc còn thiết lập một vườn cột kinh khổng lồ với 1.000 cột đá, mỗi cột cao 12m, nặng 200 tấn.
+                                        </li>
+                                        <li>Quý khách khám phá vẻ đẹp hoang sơ, tự nhiên, sơn thủy hữu tình, đẹp như cõi của mảnh đất được ví như “Vịnh Hạ Long” trên cạn.</li>
+                                        <li>
+                                            <strong>11h30:</strong>
+                                            Quý khách lên xe đi Ninh Bình
+                                        </li>
+                                        <h3>Chiều: Tràng An – Hà Nội</h3>
+                                        <li>Sau bữa trưa, xe và hướng dẫn đưa du khách ra bến đò Tràng An lên thuyền đi dọc theo suối giữa cánh đồng lúa thăm khu du lịch Tràng An Mới với những dải đá vôi, thung lũng và những sông ngòi đan xen tạo nên một không gian huyền ảo, kỳ bí.</li>                                                   
+                                        <li>Với tuyến này quý khách có cơ hội tham quan 4 hang động tự nhiên trong số những hang động đẹp nhất trong khu du lịch Tràng An là Hang Lấm, Hang Vạng, Hang Thánh Trượt và hang cuối cùng là Hang Đại, quý khách còn dừng chân ghé thăm 3 điểm tâm linh là đền Cao Sơn, đền Suối Tiên và Hành Cung Vũ Lâm. Tuyến này sẽ rất phù hợp với những bạn trẻ, những người thích chụp ảnh Check in, quý khách có thể có những trải nghiệm đầy đủ về hành trình ngồi đò thăm hang cũng như có thể lưu lại những cảm xúc, những bức hình đẹp trong hành trình về thăm Tràng An – Di sản văn hòa và thiên nhiên thế giới!</li>
+                                        <li>
+                                            <strong>17h00:</strong>
+                                            Quý khách lên xe trở về Hà Nội
+                                        </li>
+                                        <li>
+                                            <strong>19h00:</strong>  
+                                            Về đến Hà Nội
+                                        </p>
+                                    </div>      
                                 </div>
                                 <!--Footer-->
                                 <div class="modal-footer flex-column flex-md-row">
@@ -975,28 +1016,32 @@ const components = {
                                 <div class="modal-content">
                                 <!--Body-->
                                 <div class="modal-body mb-0 p-0">
-                                    <div class="content-cac-ban-oi">
-                                        <h1 style="text-align: center";>Lịch Trình</h1>
-                                        <div class="boc-noi-dung style="text-align: start;>
-                                            <p>Đến với Ecopark, mọi hoạt động vui chơi, tham quan của bạn hầu hết được thực hiện ngoài trời. Chính bởi vậy, dù có thể đến Ecopark vào bất cứ thời gian nào, bạn nên lựa chọn những ngày trời mát mẻ, không mưa và không nắng quá gắt để vui chơi.</p>
-                                            <p>Ngày 1: xuất phát từ Hà Nội tới Ecopark, có thể tham quan các công viên mùa xuân, mùa hạ, mùa thu. Sau khi ăn trưa có thể ra hồ bơi và dùng tiệc nướng vào buổi tối.</p>
-                                            <p>Ngày 2: Gia đình có thể đốt lửa trại, đi xe đạp quanh khuôn viên và quay về Hà Nội vào buổi chiều.</p>
-                                            <h4>Gợi ý ăn uống khi đến Ecopark</h4>
-                                            <p>Khu đô thị Ecopark có đầy đủ chuỗi cửa hàng ẩm thực đa dạng và phong phú, vì thế các bạn có thể khám phá ẩm thực đủ các vùng miền tại đây. Từ đồ ăn bình dân cho tới những món ăn hiện đại, tất cả đều được chế biến vô cùng tỉ mỉ và hấp dẫn. Các bạn có thể ghé qua những quán ăn, nhà hàng như: Nhà hàng Gà Lên Mâm, Cây Cau, ẩm thực Mường,…</p>
-                                            <p>Nếu muốn nhâm nhi thêm tách cafe sau bữa ăn, có thể đến với Ciao Cafe, Link Cafe hay Cà phê Đak Hà ở ngay trong khu đô thị.</p>
-                                            <h4>Ưu điểm và nhược điểm khi du lịch tại Tam Đảo</h4>
-                                            <p style="font-style: italic;">Ưu điểm</p>
-                                            <p>Phù hợp với du lịch cùng gia đình.</p>
-                                            <p>Có không gian cắm trại, picnic,...</p>
-                                            <p>Hồ điều hòa trong lành và mát mẻ, thích hợp du lịch 4 mùa.</p>
-                                            <p>Không gian hiện đại, thoáng đãng.</p>
-                                            <p>Gần ngay trung tâm Hà Nội.</p>
-                                            <p style="font-style: italic;">Nhược điểm</p>
-                                            <p>Không có những địa điểm cho các bạn ưa mạo hiểm, thích khám phá.</p>
-                                            <p>Chỉ phù hợp với những du khách ưa thích kiểu du lịch nghỉ dưỡng.</p>
-                                            <p>Giá cả và chi phí dịch vụ khá cao.</p>
-                                        </div>
-                                    </div>       
+                                    <h1 style="text-align: center";>Lịch Trình</h1>
+                                    <div class="boc-noi-dung style="text-align: start;>
+                                        <p>Đến với Ecopark, mọi hoạt động vui chơi, tham quan của bạn hầu hết được thực hiện ngoài trời. Chính bởi vậy, dù có thể đến Ecopark vào bất cứ thời gian nào, bạn nên lựa chọn những ngày trời mát mẻ, không mưa và không nắng quá gắt để vui chơi.</p>
+                                        <li>
+                                            <strong>Ngày 1:</strong>
+                                            xuất phát từ Hà Nội tới Ecopark, có thể tham quan các công viên mùa xuân, mùa hạ, mùa thu. Sau khi ăn trưa có thể ra hồ bơi và dùng tiệc nướng vào buổi tối.
+                                        </li>
+                                        <li>
+                                            <strong>Ngày 2:</strong>
+                                            Gia đình có thể đốt lửa trại, đi xe đạp quanh khuôn viên và quay về Hà Nội vào buổi chiều.
+                                        </li>
+                                        <h4>Gợi ý ăn uống khi đến Ecopark</h4>
+                                        <li>Khu đô thị Ecopark có đầy đủ chuỗi cửa hàng ẩm thực đa dạng và phong phú, vì thế các bạn có thể khám phá ẩm thực đủ các vùng miền tại đây. Từ đồ ăn bình dân cho tới những món ăn hiện đại, tất cả đều được chế biến vô cùng tỉ mỉ và hấp dẫn. Các bạn có thể ghé qua những quán ăn, nhà hàng như: Nhà hàng Gà Lên Mâm, Cây Cau, ẩm thực Mường,…</li>
+                                        <li>Nếu muốn nhâm nhi thêm tách cafe sau bữa ăn, có thể đến với Ciao Cafe, Link Cafe hay Cà phê Đak Hà ở ngay trong khu đô thị.</li>
+                                        <h4>Ưu điểm và nhược điểm khi du lịch tại Tam Đảo</h4>
+                                        <strong style="font-style: italic;">Ưu điểm</strong>
+                                        <li>Phù hợp với du lịch cùng gia đình.</li>
+                                        <li>Có không gian cắm trại, picnic,...</li>
+                                        <li>Hồ điều hòa trong lành và mát mẻ, thích hợp du lịch 4 mùa.</li>
+                                        <li>Không gian hiện đại, thoáng đãng.</li>
+                                        <li>Gần ngay trung tâm Hà Nội.</li>
+                                        <strong style="font-style: italic;">Nhược điểm</strong>
+                                        <li>Không có những địa điểm cho các bạn ưa mạo hiểm, thích khám phá.</li>
+                                        <li>Chỉ phù hợp với những du khách ưa thích kiểu du lịch nghỉ dưỡng.</li>
+                                        <li>Giá cả và chi phí dịch vụ khá cao.</li>
+                                    </div>                                            
                                 </div>
                                 <!--Footer-->
                                 <div class="modal-footer flex-column flex-md-row">
@@ -1032,26 +1077,37 @@ const components = {
                                 <div class="modal-content">
                                 <!--Body-->
                                 <div class="modal-body mb-0 p-0">
-                                    <div class="content-cac-ban-oi">
-                                        <h1 style="text-align: center";>Lịch Trình</h1>
-                                        <div class="boc-noi-dung style="text-align: start;>
-                                            <h3 style="text-align: center;">Ngày thứ 1: Hà Nội – Flamingo Đại Lải</h3>
-                                            <p>Buổi sáng: Sau khi di chuyển tới Flamingo Đại Lải tham quan, chụp ảnh tại câu lạc bộ nghệ thuật và nhà hàng Bambo Wings. Thăm hầm rượu nơi lưu trữ các loại rượu vang nổi tiếng trên thế giới, chụp ảnh trên các đồi cỏ nghệ thuật. Thăm Trung tâm hội nghị – công trình kiến trúc độc đáo với cảnh quan đá trên các đồi cỏ, thăm phòng trưng bày Flamingo.</p>
-                                            <p>Buổi trưa: Ăn trưa và nghỉ ngơi.</p>
-                                            <p>Buổi chiều: Tham quan và chụp ảnh tại các cánh đồng hoa, cánh đồng sắc màu, chụp ảnh tại đồi nghệ thuật nơi có tầm nhìn bởi dãy Tam Đảo hùng vĩ bao quanh Khu du lịch. Tham quan và chụp ảnh tại vườn Khô Đại Lải</p>
-                                            <p>Tham quan rừng thông thơ mộng với những thảm lá thông dày và hương thông tinh khiết, ngắm mặt trời lặn dần dưới rặng thông. Tham quan và vui chơi tại công viên trò chơi Wonder Park.</p>
-                                            <p>Tham gia các hoạt động thể thao dưới nước như Kayak, lướt ván buồm, thuyền gỗ Whitehall, thuyền buồn Mist và Alaska hoặc du thuyền 5 sao Bayliner. Ăn bữa tối lãng mạn trên thảm cỏ bên bờ hồ thơ mộng với các món BBQ với lửa, đuốc, nến và hoa.</p>
-                                            <h3 style="text-align: center;">Ngày thứ 2:Flamingo Đại Lải –  Hà Nội</h3>                                                   
-                                            <p>Lựa chọn các hoạt động vui chơi và tham quan sau:</p>
-                                            <p>– Tham gia học làm vườn và trồng rau sạch.</p>
-                                            <p>– Thi đấu cờ vua với bàn cờ khổng lồ.</p>
-                                            <p>– Thư giãn tại khu Spa Flamingo.</p>
-                                            <p>– Luyện giọng hát tại phòng Karaoke.</p>
-                                            <p>– Đăng ký học và thực hành các hoạt động thể thao dưới nước: Chèo thuyền, thuyền buồm, lướt ván buồm…</p>
-                                            <p>Tham quan Hang Dơi, Đèo Nhe và phong cảnh rừng núi cuộc sống thôn dã bằng xe jeep.</p>
-                                            <p>Buổi trưa: Ăn trưa, nghỉ ngơi, trả phòng và lên đường về Hà Nội.</p>
-                                        </div>
-                                    </div>       
+                                    <h1 style="text-align: center";>Lịch Trình</h1>
+                                    <div class="boc-noi-dung style="text-align: start;>
+                                        <h3 style="text-align: center;">Ngày thứ 1: Hà Nội – Flamingo Đại Lải</h3>
+                                        <li>
+                                            <strong>Buổi sáng:</strong>
+                                            Sau khi di chuyển tới Flamingo Đại Lải tham quan, chụp ảnh tại câu lạc bộ nghệ thuật và nhà hàng Bambo Wings. Thăm hầm rượu nơi lưu trữ các loại rượu vang nổi tiếng trên thế giới, chụp ảnh trên các đồi cỏ nghệ thuật. Thăm Trung tâm hội nghị – công trình kiến trúc độc đáo với cảnh quan đá trên các đồi cỏ, thăm phòng trưng bày Flamingo.
+                                        </li>
+                                        <li>
+                                            <strong>Buổi trưa:</strong>
+                                            Ăn trưa và nghỉ ngơi.
+                                        </li>
+                                        <li>
+                                            <strong>Buổi chiều:</strong>
+                                            Tham quan và chụp ảnh tại các cánh đồng hoa, cánh đồng sắc màu, chụp ảnh tại đồi nghệ thuật nơi có tầm nhìn bởi dãy Tam Đảo hùng vĩ bao quanh Khu du lịch. Tham quan và chụp ảnh tại vườn Khô Đại Lải
+                                        </li>
+                                        <li>Tham quan rừng thông thơ mộng với những thảm lá thông dày và hương thông tinh khiết, ngắm mặt trời lặn dần dưới rặng thông. Tham quan và vui chơi tại công viên trò chơi Wonder Park.</li>
+                                        <li>Tham gia các hoạt động thể thao dưới nước như Kayak, lướt ván buồm, thuyền gỗ Whitehall, thuyền buồn Mist và Alaska hoặc du thuyền 5 sao Bayliner. Ăn bữa tối lãng mạn trên thảm cỏ bên bờ hồ thơ mộng với các món BBQ với lửa, đuốc, nến và hoa.</li>
+
+                                        <h3 style="text-align: center;">Ngày thứ 2:Flamingo Đại Lải –  Hà Nội</h3>                                                   
+                                        <strong>Buổi sáng mọi người có thể lựa chọn các hoạt động vui chơi và tham quan sau:</strong>
+                                        <li>Tham gia học làm vườn và trồng rau sạch.</li>
+                                        <li>Thi đấu cờ vua với bàn cờ khổng lồ.</li>
+                                        <li>Thư giãn tại khu Spa Flamingo.</li>
+                                        <li>Luyện giọng hát tại phòng Karaoke.</li>
+                                        <li>Đăng ký học và thực hành các hoạt động thể thao dưới nước: Chèo thuyền, thuyền buồm, lướt ván buồm…</li>
+                                        <li>Tham quan Hang Dơi, Đèo Nhe và phong cảnh rừng núi cuộc sống thôn dã bằng xe jeep.</li>
+                                        <p>
+                                            <strong>Buổi trưa:</strong>
+                                            Ăn trưa, nghỉ ngơi, trả phòng và lên đường về Hà Nội.
+                                        </p>
+                                    </div>      
                                 </div>
                                 <!--Footer-->
                                 <div class="modal-footer flex-column flex-md-row">
@@ -1087,27 +1143,31 @@ const components = {
                                 <div class="modal-content">
                                 <!--Body-->
                                 <div class="modal-body mb-0 p-0">
-                                    <div class="content-cac-ban-oi">
-                                        <h1 style="text-align: center";>Lịch Trình</h1>
-                                        <div class="boc-noi-dung style="text-align: start;>
-                                            <p>Khí hậu Tam Đảo mang sắc thái của vùng khí hậu ôn đới nên mát mẻ quanh năm, nhiệt độ trung bình từ 18-19 độ C. Ngoài ra, nơi đây lúc nào cũng có một lớp sương mù lành lạnh, thuận lợi cho Tam Đảo trở thành điểm du lịch thiên đường.</p>
-                                            <p>Ngày 1: Khởi hành từ Hà Nội tới Thiền viện Tây Thiên, hoặc đi Chùa Tây Thiên và tham quan tại đây. Có thể dùng cơm trưa tại đây hoặc ăn bên ngoài. Buổi trưa có mặt và nhận phòng tại Tam Đảo. Chiều tham quan tháp truyền hình. Buổi tối có thể đi ăn đồ nướng, ốc,...</p>
-                                            <p>Ngày 2: Ăn sáng, đi chợ sớm để tham quan và mua quà. Có thể đi thêm Thác Bạc, nhà thờ Tam Đảo, thăm vườn quốc gia Tam Đảo. Buổi trưa về trả phòng nghỉ và quay lại Hà Nội.</p>
-                                            <h4>Gợi ý ăn uống khi đến Tam Đảo</h4>
-                                            <p>Tam Đảo khá nổi tiếng với những món đặc trưng là rau su su và đồ nướng. Rau su su được trồng tại vùng khí hậu mát mẻ và thổ nhưỡng thích hợp nên luôn tươi ngon, dù luộc hay xào đều hoàn hảo. Ngoài ra, món gà nướng bọc giấy bạc cũng là món ăn mà bạn không nên bỏ qua khi đặt chân đến Tam Đảo.</p>
-                                            <h4>Ưu điểm và nhược điểm khi du lịch tại Tam Đảo</h4>
-                                            <p style="font-style: italic;">Ưu điểm</p>
-                                            <p>Phù hợp với gia đình nhiều người. Ngoài ra thích hợp cả với những nhóm bạn trẻ ưa khám phá.</p>
-                                            <p>Thích hợp để đi vào cả 4 mùa trong năm.</p>
-                                            <p>Có không gian cắm trại, picnic,...</p>
-                                            <p>Nhiều đặc sản ngon, dễ ăn./p>
-                                            <p style="font-style: italic;">Nhược điểm</p>
-                                            <p>Dịch vụ hơi đắt đỏ.</p>
-                                            <p>Đồ ăn tại các nhà nghỉ thường không ngon.</p>
-                                            <p>Ít địa điểm nên chỉ nên đi trong 2 ngày</p>
-                                            <p>Có thể đông đúc và quá tải vào những mùa cao điểm du lịch.</p>
-                                        </div>
-                                    </div>       
+                                    <h1 style="text-align: center";>Lịch Trình</h1>
+                                    <div class="boc-noi-dung style="text-align: start;>
+                                        <p>Khí hậu Tam Đảo mang sắc thái của vùng khí hậu ôn đới nên mát mẻ quanh năm, nhiệt độ trung bình từ 18-19 độ C. Ngoài ra, nơi đây lúc nào cũng có một lớp sương mù lành lạnh, thuận lợi cho Tam Đảo trở thành điểm du lịch thiên đường.</p>
+                                        <li>
+                                            <strong>Ngày 1:</strong>
+                                            Khởi hành từ Hà Nội tới Thiền viện Tây Thiên, hoặc đi Chùa Tây Thiên và tham quan tại đây. Có thể dùng cơm trưa tại đây hoặc ăn bên ngoài. Buổi trưa có mặt và nhận phòng tại Tam Đảo. Chiều tham quan tháp truyền hình. Buổi tối có thể đi ăn đồ nướng, ốc,...
+                                        </li>
+                                        <li>
+                                            <strong>Ngày 2:</strong>
+                                            Ăn sáng, đi chợ sớm để tham quan và mua quà. Có thể đi thêm Thác Bạc, nhà thờ Tam Đảo, thăm vườn quốc gia Tam Đảo. Buổi trưa về trả phòng nghỉ và quay lại Hà Nội.
+                                        </li>
+                                        <h4>Gợi ý ăn uống khi đến Tam Đảo</h4>
+                                        <li>Tam Đảo khá nổi tiếng với những món đặc trưng là rau su su và đồ nướng. Rau su su được trồng tại vùng khí hậu mát mẻ và thổ nhưỡng thích hợp nên luôn tươi ngon, dù luộc hay xào đều hoàn hảo. Ngoài ra, món gà nướng bọc giấy bạc cũng là món ăn mà bạn không nên bỏ qua khi đặt chân đến Tam Đảo.</li>
+                                        <h4>Ưu điểm và nhược điểm khi du lịch tại Tam Đảo</h4>
+                                        <strong style="font-style: italic;">Ưu điểm</strong>
+                                        <li>Phù hợp với gia đình nhiều người. Ngoài ra thích hợp cả với những nhóm bạn trẻ ưa khám phá.</li>
+                                        <li>Thích hợp để đi vào cả 4 mùa trong năm.</li>
+                                        <li>Có không gian cắm trại, picnic,...</li>
+                                        <li>Nhiều đặc sản ngon, dễ ăn.</li>
+                                        <strong style="font-style: italic;">Nhược điểm</strong>
+                                        <li>Dịch vụ hơi đắt đỏ.</li>
+                                        <li>Đồ ăn tại các nhà nghỉ thường không ngon.</li>
+                                        <li>Ít địa điểm nên chỉ nên đi trong 2 ngày</li>
+                                        <li>Có thể đông đúc và quá tải vào những mùa cao điểm du lịch.</li>
+                                    </div>     
                                 </div>
                                 <!--Footer-->
                                 <div class="modal-footer flex-column flex-md-row">
@@ -1143,26 +1203,30 @@ const components = {
                                 <div class="modal-content">
                                 <!--Body-->
                                 <div class="modal-body mb-0 p-0">
-                                    <div class="content-cac-ban-oi">
-                                        <h1 style="text-align: center";>Lịch Trình</h1>
-                                        <div class="boc-noi-dung style="text-align: start;>
-                                            <p>Tất cả các thời điểm, các mùa trong năm bạn đều có thể đế với My Hill. Tuy nhiên, vì các hoạt động cắm trại, vui chơi được tổ chức hoàn toàn ngoài trời nên hãy chọn một ngày nắng đẹp, không mưa và khô ráo để đi chơi nhé.</p>
-                                            <p>Ngày 1: xuất phát từ Hà Nội đến My Hill, tham quan, thuê đồ và dựng lều trại. Buổi tối có thể nướng đồ ăn, tham gia các hoạt động vui chơi, âm nhạc và giao lưu</p>
-                                            <p>Ngày 2: Tham quan, chụp ảnh, trải nghiệm không gian hồ My Hill. Buổi chiều trả đồ và quay về Hà Nội.</p>
-                                            <h4>Gợi ý ăn uống tại My Hill</h4>
-                                            <p>My Hill là khu du lịch sinh thái với phong cách tự phục vụ. Ở đây không có sẵn nhiều hàng quán, dịch vụ mà hầu hết các bạn sẽ tự làm hết. Bạn có thể chuẩn bị đồ ăn ở nhà mang đến hoặc đặt trước theo dịch vụ tại đây</p>
-                                            <h4>Ưu điểm và nhược điểm khi du lịch My Hill</h4>
-                                            <p style="font-style: italic;">Ưu điểm</p>
-                                            <p>Không quá xa trung tâm Hà Nội</p>
-                                            <p>Đồ ăn khá rẻ và ngon</p>
-                                            <p>Dịch vụ tốt, phong cảnh đẹp</p>
-                                            <p>Có không gian tổ chức cắm trại, picnic, gameshow</p>
-                                            <p style="font-style: italic;">Nhược điểm</p>
-                                            <p>Có nhiều côn trùng</p>
-                                            <p>Các ngày trong tuần thường có ít nhân viên chăm sóc</p>
-                                            <p>Hồ Đồng Quan khá sâu và nguy hiểm</p>
-                                        </div>
-                                    </div>       
+                                    <h1 style="text-align: center";>Lịch Trình</h1>
+                                    <div class="boc-noi-dung style="text-align: start;>
+                                        <p>Tất cả các thời điểm, các mùa trong năm bạn đều có thể đế với My Hill. Tuy nhiên, vì các hoạt động cắm trại, vui chơi được tổ chức hoàn toàn ngoài trời nên hãy chọn một ngày nắng đẹp, không mưa và khô ráo để đi chơi nhé.</p>
+                                        <li>
+                                            <strong>Ngày 1:</strong>
+                                            xuất phát từ Hà Nội đến My Hill, tham quan, thuê đồ và dựng lều trại. Buổi tối có thể nướng đồ ăn, tham gia các hoạt động vui chơi, âm nhạc và giao lưu
+                                        </li>
+                                        <li>
+                                            <strong>Ngày 2:</strong> 
+                                            Tham quan, chụp ảnh, trải nghiệm không gian hồ My Hill. Buổi chiều trả đồ và quay về Hà Nội.
+                                        </li>
+                                        <h4>Gợi ý ăn uống tại My Hill</h4>
+                                        <li>My Hill là khu du lịch sinh thái với phong cách tự phục vụ. Ở đây không có sẵn nhiều hàng quán, dịch vụ mà hầu hết các bạn sẽ tự làm hết. Bạn có thể chuẩn bị đồ ăn ở nhà mang đến hoặc đặt trước theo dịch vụ tại đây</li>
+                                        <h4>Ưu điểm và nhược điểm khi du lịch My Hill</h4>
+                                        <strong style="font-style: italic;">Ưu điểm</strong>
+                                        <li>Không quá xa trung tâm Hà Nội</li>
+                                        <li>Đồ ăn khá rẻ và ngon</li>
+                                        <li>Dịch vụ tốt, phong cảnh đẹp</li>
+                                        <li>Có không gian tổ chức cắm trại, picnic, gameshow</li>
+                                        <strong style="font-style: italic;">Nhược điểm</strong>
+                                        <li>Có nhiều côn trùng</li>
+                                        <li>Các ngày trong tuần thường có ít nhân viên chăm sóc</li>
+                                        <li>Hồ Đồng Quan khá sâu và nguy hiểm</li>
+                                    </div>
                                 </div>
                                 <!--Footer-->
                                 <div class="modal-footer flex-column flex-md-row">
@@ -1198,24 +1262,55 @@ const components = {
                                 <div class="modal-content">
                                 <!--Body-->
                                 <div class="modal-body mb-0 p-0">
-                                    <div class="content-cac-ban-oi">
-                                        <h1 style="text-align: center";>Lịch Trình</h1>
-                                        <div class="boc-noi-dung style="text-align: start;>
-                                            <h3 style="text-align: center;">Ngày thứ nhất:</h3>
-                                            <p>6h00: Bắt đầu xuất phát từ BigC Thăng Long, theo Đại lộ Thăng Long để đến vườn quốc gia Ba Vì.</p>
-                                            <p>7h45: Đến cổng vườn quốc gia, mua vé rồi đi thẳng 1100m để lên đền Thượng (cách cổng vườn quốc gia 12km). Đường đến đền Thượng nhiều khúc cua hiểm và dốc, các bạn nhớ di chuyển hết sức cẩn thận và quan sát kỹ xung quanh.</p>
-                                            <p>8h15: Lên đến cốt 1100m các bạn gửi xe rồi rẽ phải để lên Đền Thượng và đền Mẫu.8h15: Lên đến cốt 1100m các bạn gửi xe rồi rẽ phải để lên Đền Thượng và đền Mẫu.</p>
-                                            <p>12h: nghỉ ngơi, ăn trưa.</p>
-                                            <p>13h: Quay về cốt 400m để nghỉ và ăn tối ở nhà hàng trong khu du lịch vườn quốc gia Ba Vì. Trên đường quay xuống có một số di tích mà các bạn có thể tham quan: Nhà thờ cổ và Trại hè thời pháp, nhà tù chính trị, cốt 600m (nơi đánh dấu trận đánh của trung đoàn Ba Vì), động Ngọc Hoa, vườn xương rồng.</p>
-                                            <p>19h: Các bạn sẽ được  cảm nhận cái lạnh se se của mùa đông, không gian tĩnh lặng của một vùng quê và đón ánh nắng bình minh xen qua những tán lá thông ở cốt 400.</p>
-                                            <h3 style="text-align: center;">Ngày thứ 2:</h3>
-                                            <p>7h: Ăn sáng tại cốt 400</p>
-                                            <p>8h: Xuất phát xuống khu du lịch Thiên Sơn – Suối Ngà cách cổng Vườn Quốc Gia 2km. Tại đây, các bạn được tắm thác, bơi tại bể bơi, trượt cầu trượt nước từ trên cao..</p>
-                                            <p>11h30: Ăn trưa tại Thiên Sơn – Suối Ngà với những món đặc sản rừng núi.</p>
-                                            <p>13h: Xuất phát đi Khoang Xanh hoặc Ao Vua để tận hưởng các trò chơi cảm giác mạnh thách thức độ gan dạ của mỗi người. Ngoài các trò chơi trên Ở Khoang Xanh có Thung Lũng Khủng Long cho các bé tìm hiểu thiên nhiên còn Ao Vua lại có bể tắm trà xanh, có nơi Spa lý tưởng cho mọi người.</p>
-                                            <p>16h30: Rời khỏi khu du lịch và trở về Hà Nội.</p>
-                                        </div>
-                                    </div>       
+                                    <h1 style="text-align: center";>Lịch Trình</h1>
+                                    <div class="boc-noi-dung style="text-align: start;>
+                                        <h3 style="text-align: center;">Ngày thứ nhất:</h3>
+                                        <li>
+                                            <strong>6h00:</strong>
+                                            Bắt đầu xuất phát từ BigC Thăng Long, theo Đại lộ Thăng Long để đến vườn quốc gia Ba Vì.
+                                        </li>
+                                        <li>
+                                            <strong>7h45:</strong>
+                                            Đến cổng vườn quốc gia, mua vé rồi đi thẳng 1100m để lên đền Thượng (cách cổng vườn quốc gia 12km). Đường đến đền Thượng nhiều khúc cua hiểm và dốc, các bạn nhớ di chuyển hết sức cẩn thận và quan sát kỹ xung quanh.
+                                        </li>
+                                        <li>
+                                            <strong>8h15:</strong>
+                                            Lên đến cốt 1100m các bạn gửi xe rồi rẽ phải để lên Đền Thượng và đền Mẫu.
+                                        </li>
+                                        <li>
+                                            <strong>12h:</strong>
+                                            nghỉ ngơi, ăn trưa.
+                                        </li>
+                                        <li>
+                                            <strong>13h:</strong> 
+                                            Quay về cốt 400m để nghỉ và ăn tối ở nhà hàng trong khu du lịch vườn quốc gia Ba Vì. Trên đường quay xuống có một số di tích mà các bạn có thể tham quan: Nhà thờ cổ và Trại hè thời pháp, nhà tù chính trị, cốt 600m (nơi đánh dấu trận đánh của trung đoàn Ba Vì), động Ngọc Hoa, vườn xương rồng.
+                                        </li>
+                                        <li>
+                                            <strong>19h:</strong> 
+                                            Các bạn sẽ được  cảm nhận cái lạnh se se của mùa đông, không gian tĩnh lặng của một vùng quê và đón ánh nắng bình minh xen qua những tán lá thông ở cốt 400.
+                                        </li>
+                                        <h3 style="text-align: center;">Ngày thứ 2:</h3>
+                                        <li>
+                                            <strong>7h:</strong> 
+                                            Ăn sáng tại cốt 400
+                                        </li>
+                                        <li>
+                                            <strong>8h:</strong>
+                                            Xuất phát xuống khu du lịch Thiên Sơn – Suối Ngà cách cổng Vườn Quốc Gia 2km. Tại đây, các bạn được tắm thác, bơi tại bể bơi, trượt cầu trượt nước từ trên cao..
+                                        </li>
+                                        <li>
+                                            <strong>11h30:</strong> 
+                                            Ăn trưa tại Thiên Sơn – Suối Ngà với những món đặc sản rừng núi.
+                                        </li>
+                                        <li>
+                                            <strong>13h:</strong> 
+                                            Xuất phát đi Khoang Xanh hoặc Ao Vua để tận hưởng các trò chơi cảm giác mạnh thách thức độ gan dạ của mỗi người. Ngoài các trò chơi trên Ở Khoang Xanh có Thung Lũng Khủng Long cho các bé tìm hiểu thiên nhiên còn Ao Vua lại có bể tắm trà xanh, có nơi Spa lý tưởng cho mọi người.
+                                        </li>
+                                        <li>
+                                            <strong>16h30:</strong> 
+                                            Rời khỏi khu du lịch và trở về Hà Nội.
+                                        </li>
+                                    </div>     
                                 </div>
                                 <!--Footer-->
                                 <div class="modal-footer flex-column flex-md-row">
@@ -1251,27 +1346,60 @@ const components = {
                                 <div class="modal-content">
                                 <!--Body-->
                                 <div class="modal-body mb-0 p-0">
-                                    <div class="content-cac-ban-oi">
-                                        <h1 style="text-align: center";>Lịch Trình</h1>
-                                        <div class="boc-noi-dung style="text-align: start;>
-                                            <h3 style="text-align: center;">Ngày 1: Hà Nội - Mai Châu (Ăn trưa, tối):</h3>
-                                            <p>06h30 : Khởi hành từ Hà Nội để bắt đầu tour du lịch Mai Châu 2 ngày 1 đêm.</p>
-                                            <p>07h30 : Đoàn dừng chân ăn sáng tự túc trên đường.</p>
-                                            <p>09h30 : Quý khách tiếp tục dừng chân nghỉ ngơi và chụp ảnh tại đèo Thung Khe – Hòa Bình.</p>
-                                            <p>Khi tới đèo Thung Khe quý khách sẽ thấy một khung cảnh đẹp hết sức bình dị như là biển mây và…ngô luộc, mía tía, cơm lam, cải mèo. Ở Thung Khe – Hòa Bình một ngày như có bốn mùa. Sáng trong trẻo, trưa chói chang, chiều dìu dịu và khi màn đêm buông xuống là sương mù dày đặc.</p>
-                                            <p>10h30 : Quý khách đặt chân đến bản Lác – Mai Châu. Bản Lác được mệnh danh là thủ đô của người Thái. Quý khách nghỉ ngơi, dùng bữa trưa với những món ăn truyền thống mang hương vị của núi rừng.</p>
-                                            <p>14h00 – 16h00 : Quý khách tham gia chương trình khám phá thung lũng Mai Châu, thăm những ngôi nhà sàn nhỏ xinh của người Thái để tìm hiểu những nét văn hóa, phong tục tập quán độc đáo của họ.</p>
-                                            <p>16h00 - 18h00 : Tự do dạo chơi tham quan chụp ảnh thung lũng Mai Châu/p>
-                                            <p>18h30 : Quý khách dùng bữa tối tại nhà sàn truyền thống của người Thái.</p>
-                                            <p>19h30 – 21h30 :  Quý khách tham gia các hoạt động, chương trình giao lưu văn nghệ, múa hát của các chàng trai, cô gái dân tộc Thái, uống rượu cần, đốt lửa trại.</p>
-                                            <h3 style="text-align: center;">Ngày 2: Mai Châu – Chợ phiên dân tộc - Khám phá hang Chiều/ Thác Gò Lào - Hà Nội (Bữa sáng, trưa)</h3>
-                                            <p>07h00 : Quý khách thức dậy ngắm cảnh bình minh, tận hưởng những giây phút tĩnh lặng, yên bình trước khi có điểm tâm nhẹ</p>
-                                            <p>08h30 – 11h00 : Hướng dẫn viên sẽ đưa quý khách tham quan chợ phiên dân tộc tại Mai Châu, một hoạt động truyền thống của đồng bào dân tộc nơi đây.</p>
-                                            <p>11h30 : Quý khách quay trở lại bản Lác dùng bữa, sau đó tự do khám phá, du lịch Mai Châu trước khi ra về.</p>
-                                            <p>13h00 : Quý khách lên xe, tạm biệt Mai Châu yên bình, đoàn trở về Hà Nội.</p>
-                                            <p>17h00 : Xe đưa quý khách về tới Hà Nội</p>
-                                        </div>
-                                    </div>       
+                                    <h1 style="text-align: center";>Lịch Trình</h1>
+                                    <div class="boc-noi-dung style="text-align: start;>
+                                        <h3 style="text-align: center;">Ngày 1: Hà Nội - Mai Châu (Ăn trưa, tối):</h3>
+                                        <li>
+                                            <strong>06h30 :</strong> 
+                                            Khởi hành từ Hà Nội để bắt đầu tour du lịch Mai Châu 2 ngày 1 đêm.
+                                        </li>
+                                        <li>07h30 : Đoàn dừng chân ăn sáng tự túc trên đường.</li>
+                                        <li>
+                                            <strong>09h30 :</strong> 
+                                            Quý khách tiếp tục dừng chân nghỉ ngơi và chụp ảnh tại đèo Thung Khe – Hòa Bình. Khi tới đèo Thung Khe quý khách sẽ thấy một khung cảnh đẹp hết sức bình dị như là biển mây và…ngô luộc, mía tía, cơm lam, cải mèo. Ở Thung Khe – Hòa Bình một ngày như có bốn mùa. Sáng trong trẻo, trưa chói chang, chiều dìu dịu và khi màn đêm buông xuống là sương mù dày đặc.
+                                        </li>
+                                        <li>
+                                            <strong>10h30 :</strong> 
+                                            Quý khách đặt chân đến bản Lác – Mai Châu. Bản Lác được mệnh danh là thủ đô của người Thái. Quý khách nghỉ ngơi, dùng bữa trưa với những món ăn truyền thống mang hương vị của núi rừng.
+                                        </li>
+                                        <li>
+                                            <strong>14h00 – 16h00 :</strong> 
+                                            Quý khách tham gia chương trình khám phá thung lũng Mai Châu, thăm những ngôi nhà sàn nhỏ xinh của người Thái để tìm hiểu những nét văn hóa, phong tục tập quán độc đáo của họ.
+                                        </li>
+                                        <li>
+                                            <strong>16h00 - 18h00 :</strong> 
+                                            Tự do dạo chơi tham quan chụp ảnh thung lũng Mai Châu
+                                        </li>
+                                        <li>
+                                            <strong>18h30 :</strong> 
+                                            Quý khách dùng bữa tối tại nhà sàn truyền thống của người Thái.
+                                        </li>
+                                        <li>
+                                            <strong>19h30 – 21h30 :</strong>  
+                                            Quý khách tham gia các hoạt động, chương trình giao lưu văn nghệ, múa hát của các chàng trai, cô gái dân tộc Thái, uống rượu cần, đốt lửa trại.
+                                        </li>
+                                        <h3 style="text-align: center;">Ngày 2: Mai Châu – Chợ phiên dân tộc - Khám phá hang Chiều/ Thác Gò Lào - Hà Nội (Bữa sáng, trưa)</h3>
+                                        <li>
+                                            <strong>07h00 :</strong>
+                                            Quý khách thức dậy ngắm cảnh bình minh, tận hưởng những giây phút tĩnh lặng, yên bình trước khi có điểm tâm nhẹ
+                                        </li>
+                                        <li>
+                                            <strong>08h30 – 11h00 :</strong> 
+                                            Hướng dẫn viên sẽ đưa quý khách tham quan chợ phiên dân tộc tại Mai Châu, một hoạt động truyền thống của đồng bào dân tộc nơi đây.
+                                        </li>
+                                        <li>
+                                            <strong>11h30 :</strong>
+                                            Quý khách quay trở lại bản Lác dùng bữa, sau đó tự do khám phá, du lịch Mai Châu trước khi ra về.
+                                        </li>
+                                        <li>
+                                            <strong>13h00 :</strong> 
+                                            Quý khách lên xe, tạm biệt Mai Châu yên bình, đoàn trở về Hà Nội.
+                                        </li>
+                                        <li>
+                                            <strong>17h00 :</strong> 
+                                            Xe đưa quý khách về tới Hà Nội
+                                        </li>
+                                    </div>     
                                 </div>
                                 <!--Footer-->
                                 <div class="modal-footer flex-column flex-md-row">
@@ -1307,28 +1435,32 @@ const components = {
                                 <div class="modal-content">
                                 <!--Body-->
                                 <div class="modal-body mb-0 p-0">
-                                    <div class="content-cac-ban-oi">
-                                        <h1 style="text-align: center";>Lịch Trình</h1>
-                                        <div class="boc-noi-dung style="text-align: start;>
-                                            <p>Núi Trầm là địa điểm bạn có thể tới vào bất cứ mùa nào trong năm. Tuy nhiên, bạn có thể lựa chọn đi tới đây cùng gia đình vào thời gian từ đầu tháng 3 đến đầu tháng 4. Đây chính là lúc hoa xưa trắng bao phủ cả đồi núi và hoa gạo nhuộm đỏ một góc trời, tạo nên khung cảnh vô cùng đẹp mắt.</p>
-                        
-                                            <p>Ngày 1: xuất phát từ Hà Nội, chuẩn bị đồ ăn và vật dụng cần thiết cho việc leo núi. Tới núi Trầm thuê đồ dùng cần thiết và leo núi. Lên đến đỉnh núi thì dựng lều trại, có thể đốt lửa và nướng đồ ăn. Buổi tối tham gia một số trò chơi tập thể, hát hò, kể chuyện.</p>
-                                            <p>Ngày 2: Chụp hình, leo núi, tham quan hồ núi Trầm và ăn trưa. Buổi chiều dọn đồ đạc xuống núi và trở về Hà Nội.</p>
-                                            <h4>Gợi ý ăn uống tại núi Trầm</h4>
-                                            <p>Tại núi Trầm không có quá nhiều quán ăn cũng như đặc sản để bạn thưởng thức. Chính bởi vậy, hợp lý nhất là bạn nên chuẩn bị và mang theo đồ nguội cho cả gia đình mình.</p>
-                                            <h4>Ưu điểm và nhược điểm du lịch núi Trầm</h4>   
-                                            <p style="font-style: italic;">Ưu điểm</p>
-                                            <p>Phù hợp với gia đình nhiều thế hệ, đặc biệt là trẻ em và người lớn tuổi.</p>
-                                            <p>Các nhóm bạn trẻ cũng có thể phù hợp với địa điểm này</p>
-                                            <p>Có không gian cắm trại, picnic,...</p>
-                                            <p>Chi phí rẻ và hợp lý.</p>
-                                            <p>Không khí trong lành, thoáng mát, không bụi bặm, xô bồ.</p>
-                                            <p style="font-style: italic;">Nhược điểm</p>
-                                            <p>Có ít điểm vui chơi.</p>
-                                            <p>Không phù hợp với các gia đình thích du lịch kiểu nghỉ dưỡng</p>
-                                            <p>Không có các món ăn đặc sản</p>
-                                        </div>
-                                    </div>       
+                                    <h1 style="text-align: center";>Lịch Trình</h1>
+                                    <div class="boc-noi-dung style="text-align: start;>
+                                        <p>Núi Trầm là địa điểm bạn có thể tới vào bất cứ mùa nào trong năm. Tuy nhiên, bạn có thể lựa chọn đi tới đây cùng gia đình vào thời gian từ đầu tháng 3 đến đầu tháng 4. Đây chính là lúc hoa xưa trắng bao phủ cả đồi núi và hoa gạo nhuộm đỏ một góc trời, tạo nên khung cảnh vô cùng đẹp mắt.</p>
+                    
+                                        <li>
+                                            <strong>Ngày 1:</strong> 
+                                            xuất phát từ Hà Nội, chuẩn bị đồ ăn và vật dụng cần thiết cho việc leo núi. Tới núi Trầm thuê đồ dùng cần thiết và leo núi. Lên đến đỉnh núi thì dựng lều trại, có thể đốt lửa và nướng đồ ăn. Buổi tối tham gia một số trò chơi tập thể, hát hò, kể chuyện.
+                                        </li>
+                                        <li>
+                                            <strong>Ngày 2:</strong> 
+                                            Chụp hình, leo núi, tham quan hồ núi Trầm và ăn trưa. Buổi chiều dọn đồ đạc xuống núi và trở về Hà Nội.
+                                        </li>
+                                        <h4>Gợi ý ăn uống tại núi Trầm</h4>
+                                        <li>Tại núi Trầm không có quá nhiều quán ăn cũng như đặc sản để bạn thưởng thức. Chính bởi vậy, hợp lý nhất là bạn nên chuẩn bị và mang theo đồ nguội cho cả gia đình mình.</li>
+                                        <h4>Ưu điểm và nhược điểm du lịch núi Trầm</h4>   
+                                        <strong style="font-style: italic;">Ưu điểm</strong>
+                                        <li>Phù hợp với gia đình nhiều thế hệ, đặc biệt là trẻ em và người lớn tuổi.</li>
+                                        <li>Các nhóm bạn trẻ cũng có thể phù hợp với địa điểm này</li>
+                                        <li>Có không gian cắm trại, picnic,...</li>
+                                        <li>Chi phí rẻ và hợp lý.</li>
+                                        <li>Không khí trong lành, thoáng mát, không bụi bặm, xô bồ.</li>
+                                        <strong style="font-style: italic;">Nhược điểm</strong>
+                                        <li>Có ít điểm vui chơi.</li>
+                                        <li>Không phù hợp với các gia đình thích du lịch kiểu nghỉ dưỡng</li>
+                                        <li>Không có các món ăn đặc sản</li>
+                                    </div>      
                                 </div>
                                 <!--Footer-->
                                 <div class="modal-footer flex-column flex-md-row">
@@ -1361,30 +1493,28 @@ const components = {
                         <div class="modal fade" id="modalYT10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
                             <div class="modal-dialog modal-lg" role="document">
                               <!--Content-->
-                                <div class="content-cac-ban-oi">
+                                <div class="modal-content">
                                 <!--Body-->
                                 <div class="modal-body mb-0 p-0">
-                                    <div class="content-nhd">
-                                        <h1 style="text-align: center";>Lịch Trình</h1>
-                                        <div class="boc-noi-dung style="text-align: start;>
-                                            <p>Du lịch Hàm Lợn có thể đi cả vào bốn mùa, tùy thuộc vào bạn thích trải nghiệm mà nóng hay lạnh. Sự lựa chọn tốt nhất là bạn nên đi vào mùa xuân hoặc thu, khi thời tiết khô ráo, mát mẻ và không mưa quá nhiều. Các nhóm bạn trẻ không nên tới đây vào mùa mưa, nước dâng bởi sẽ không an toàn.</p>
-                        
-                                            <p>Ngày 1: Từ Hà Nội đến Hồ Núi Bàu, cắm trại và ăn uống ngay bên hồ. Buổi tối sẽ thưởng thức các món ăn như gà nướng, cá nướng, cơm nắm…</p>
-                                            <p>Ngày 2: Chinh phục đỉnh Hàm Lợn, dựng lều nghỉ ngơi trên đỉnh núi, buổi chiều quay xuống chân núi và trở về Hà Nội.</p>
-                                            <h4>Gợi ý ăn uống tại Hàm Lợn</h4>
-                                            <p>Ở dưới chân núi có khá nhiều dịch vụ bán đồ ăn, cho thuê lều trại, hướng dẫn dẫn đường,... Tuy nhiên, các bạn nên chuẩn bị đồ ăn nhẹ và đồ nướng, mang đi từ nhà để tiết kiệm chi phí và chuyến đi được chu đáo hơn nhé!</p>
-                                            <h4>Ưu điểm và nhược điểm khi du lịch tại Hàm Lợn</h4>   
-                                            <p style="font-style: italic;">Ưu điểm</p>
-                                            <p>Không quá xa trung tâm Hà Nội</p>
-                                            <p>Đồ ăn khá rẻ và ngon</p>
-                                            <p>Dịch vụ tốt, phong cảnh đẹp</p>
-                                            <p>Có không gian tổ chức cắm trại, picnic, gameshow</p>
-                                            <p style="font-style: italic;">Nhược điểm</p>
-                                            <p>Có nhiều côn trùng</p>
-                                            <p>Các ngày trong tuần thường có ít nhân viên chăm sóc</p>
-                                            <p>Hồ Đồng Quan khá sâu và nguy hiểm</p>
-                                        </div>
-                                    </div>       
+                                    <h1 style="text-align: center";>Lịch Trình</h1>
+                                    <div class="boc-noi-dung style="text-align: start;>
+                                        <p>Du lịch Hàm Lợn có thể đi cả vào bốn mùa, tùy thuộc vào bạn thích trải nghiệm mà nóng hay lạnh. Sự lựa chọn tốt nhất là bạn nên đi vào mùa xuân hoặc thu, khi thời tiết khô ráo, mát mẻ và không mưa quá nhiều. Các nhóm bạn trẻ không nên tới đây vào mùa mưa, nước dâng bởi sẽ không an toàn.</p>
+                    
+                                        <li>Ngày 1: Từ Hà Nội đến Hồ Núi Bàu, cắm trại và ăn uống ngay bên hồ. Buổi tối sẽ thưởng thức các món ăn như gà nướng, cá nướng, cơm nắm…</li>
+                                        <li>Ngày 2: Chinh phục đỉnh Hàm Lợn, dựng lều nghỉ ngơi trên đỉnh núi, buổi chiều quay xuống chân núi và trở về Hà Nội.</li>
+                                        <h4>Gợi ý ăn uống tại Hàm Lợn</h4>
+                                        <li>Ở dưới chân núi có khá nhiều dịch vụ bán đồ ăn, cho thuê lều trại, hướng dẫn dẫn đường,... Tuy nhiên, các bạn nên chuẩn bị đồ ăn nhẹ và đồ nướng, mang đi từ nhà để tiết kiệm chi phí và chuyến đi được chu đáo hơn nhé!</li>
+                                        <h4>Ưu điểm và nhược điểm khi du lịch tại Hàm Lợn</h4>   
+                                        <strong style="font-style: italic;">Ưu điểm</strong>
+                                        <li>Không quá xa trung tâm Hà Nội</li>
+                                        <li>Đồ ăn khá rẻ và ngon</li>
+                                        <li>Dịch vụ tốt, phong cảnh đẹp</li>
+                                        <li>Có không gian tổ chức cắm trại, picnic, gameshow</li>
+                                        <strong style="font-style: italic;">Nhược điểm</strong>
+                                        <li>Có nhiều côn trùng</li>
+                                        <li>Các ngày trong tuần thường có ít nhân viên chăm sóc</li>
+                                        <li>Hồ Đồng Quan khá sâu và nguy hiểm</li>
+                                    </div>      
                                 </div>
                                 <!--Footer-->
                                 <div class="modal-footer flex-column flex-md-row">
@@ -1420,24 +1550,52 @@ const components = {
                                 <div class="modal-content">
                                 <!--Body-->
                                 <div class="modal-body mb-0 p-0">
-                                    <div class="content-cac-ban-oi">
-                                        <h1 style="text-align: center";>Lịch Trình</h1>
-                                        <div class="boc-noi-dung style="text-align: start;>
-                                            <h3 style="text-align: center;">Ngày 1</h3>
-                                            <p>7h00: Khởi hành tới khu du lịch Khoang Xanh - Suối Tiên, một quần thể du lịch sơn thủy hữu tình nằm ngay tại cửa ngõ thủ đô thuộc huyện Ba Vì.</p>
-                                            <p>9h00: Qúy khách tới Khoang Xanh, nhận phòng nghỉ ngơi và tự do tham quan.</p>
-                                            <p>11h30: Quý khách tập trung tại nhà hàng Suối Tiên  để dùng bữa trưa.</p>
-                                            <p>14h00: HDV sẽ đưa quý khách tham quan khám phá vẻ đẹp hoang sơ, hùng vĩ của Khoang Xanh,chiêm ngưỡng dòng suối Tiên vắt mình từ trên cao, len lỏi qua các sườn đá, tham quan thác Mơ, thác Mâm Xôi, thác Hòa Lan… </p>
-                                            <p>Đỉnh núi Vua, nơi có khu rừng nguyên sinh với hệ động thực vật phong phú và các loài cây cổ thụ quý hiếm sẽ đem lại sự bất ngờ cho qúy khách. Khu bảo tồn động vật hoang dã, công viên khủng long, hồ tạo sóng, những cửa hàng bán đồ lưu niệm…cũng đang đợi bước chân du khách.</p>                                                
-                                            <p>18h30: Quý khách ăn tối tại nhà hàng Suối Tiên</p>
-                                            <h3 style="text-align: center;">Ngày 2</h3>   
-                                            <p>7h00: Quý khách ăn sáng tại Nhà hàng Suối Tiên</p>
-                                            <p>8h30: HDV đưa Quý khách tới trung tâm Suối khoáng nóng VIP SPA để tận hưởng cảm giác thư giãn thoải mái tuyệt vời sau quy trình xông hơi, tắm khoáng nóng.</p>
-                                            <p>12h00: Quý khách tập trung về nhà hàng Suối Tiên để dùng bữa trưa, sau đó nghỉ ngơi và trả phòng.</p>
-                                            <p>14h00: Quý khách lên xe trở về Hà Nội. Dọc đường đi quý khách có thể dừng lại để mua đặc sản sữa tươi Ba Vì về làm quà. Hẹn gặp lại Quý khách! </p>
-                                            <p>17h00: Về đến Hà Nội, trở lại điểm đón ban đầu, kết thúc chương trình</p>
-                                        </div>
-                                    </div>       
+                                    <h1 style="text-align: center";>Lịch Trình</h1>
+                                    <div class="boc-noi-dung style="text-align: start;>
+                                        <h3 style="text-align: center;">Ngày 1</h3>
+                                        <li>
+                                            <strong>7h00:</strong>
+                                            Khởi hành tới khu du lịch Khoang Xanh - Suối Tiên, một quần thể du lịch sơn thủy hữu tình nằm ngay tại cửa ngõ thủ đô thuộc huyện Ba Vì.
+                                        </li>
+                                        <li>
+                                            <strong>9h00:</strong> 
+                                            Qúy khách tới Khoang Xanh, nhận phòng nghỉ ngơi và tự do tham quan.
+                                        </li>
+                                        <li>
+                                            <strong>11h30:</strong> 
+                                            Quý khách tập trung tại nhà hàng Suối Tiên  để dùng bữa trưa.
+                                        </li>
+                                        <li>
+                                            <strong>14h00:</strong> 
+                                            HDV sẽ đưa quý khách tham quan khám phá vẻ đẹp hoang sơ, hùng vĩ của Khoang Xanh,chiêm ngưỡng dòng suối Tiên vắt mình từ trên cao, len lỏi qua các sườn đá, tham quan thác Mơ, thác Mâm Xôi, thác Hòa Lan… 
+                                        </li>
+                                        <li>Đỉnh núi Vua, nơi có khu rừng nguyên sinh với hệ động thực vật phong phú và các loài cây cổ thụ quý hiếm sẽ đem lại sự bất ngờ cho qúy khách. Khu bảo tồn động vật hoang dã, công viên khủng long, hồ tạo sóng, những cửa hàng bán đồ lưu niệm…cũng đang đợi bước chân du khách.</li>                                                
+                                        <li>
+                                            <strong>18h30:</strong> 
+                                            Quý khách ăn tối tại nhà hàng Suối Tiên
+                                        </li>
+                                        <h3 style="text-align: center;">Ngày 2</h3>   
+                                        <li>
+                                            <strong>7h00:</strong> 
+                                            Quý khách ăn sáng tại Nhà hàng Suối Tiên
+                                        </li>
+                                        <li>
+                                            <strong>8h30:</strong> 
+                                            HDV đưa Quý khách tới trung tâm Suối khoáng nóng VIP SPA để tận hưởng cảm giác thư giãn thoải mái tuyệt vời sau quy trình xông hơi, tắm khoáng nóng.
+                                        </li>
+                                        <li>
+                                            <strong>12h00:</strong> 
+                                            Quý khách tập trung về nhà hàng Suối Tiên để dùng bữa trưa, sau đó nghỉ ngơi và trả phòng.
+                                        </li>
+                                        <li>
+                                            <strong>14h00:</strong> 
+                                            Quý khách lên xe trở về Hà Nội. Dọc đường đi quý khách có thể dừng lại để mua đặc sản sữa tươi Ba Vì về làm quà. Hẹn gặp lại Quý khách! 
+                                        </li>
+                                        <li>
+                                            <strong>17h00:</strong> 
+                                            Về đến Hà Nội, trở lại điểm đón ban đầu, kết thúc chương trình
+                                        </li>
+                                    </div>    
                                 </div>
                                 <!--Footer-->
                                 <div class="modal-footer flex-column flex-md-row">
