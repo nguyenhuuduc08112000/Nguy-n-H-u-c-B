@@ -246,7 +246,7 @@ const components = {
                 <div class="option-nhd">
                     <p class="title-nek">Các tour quanh Hà Nội</p>
                     <div class="content-nek">
-                        <p>Bạn đang phân vân không biết nên đi chơi ở đâu?</p>
+                        <p>Nếu bạn chưa biết nên đi du lịch ở đâu</p>
                         <p>Hãy để Where To Go gợi ý cho bạn những tour du lịch thú vị quanh Hà Nội</p>
                     </div>
                     <div class="row justify-content-center">
