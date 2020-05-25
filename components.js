@@ -68,7 +68,7 @@ const components = {
         </div>
     </form>
 </section>`,
-    home: `<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    home: ` <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
         <a class="navbar-branch mr-4" href="#" onclick="utils.showHomeWhenClickOnLogo()">
             <img height="45px" src="./img/logo.JPG" style="border-radius: 50%;">
@@ -86,8 +86,8 @@ const components = {
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Home</a>
                 </li>
-                <li class="nav-item" onclick="utils.chatOpen()">
-                    <a class="nav-link" href="#">Chat</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./App/index.html">Chat</a>
                 </li>
                 <li class="nav-item mr-4">
                     <a class="nav-link" href="#">Team</a>
@@ -121,9 +121,9 @@ const components = {
 
             </div>
             <div class="carousel-item">
-                <img style="width: 100%;height: auto;" src="./img/c2.jpg" alt="Sập Mẹ Web r">
+                <img style="width: 100%;height: auto;" src="./img/select1.JPG" alt="Sập Mẹ Web r">
                 <div class="carousel-caption">
-                    <h2 class="display-2">Giới Thiệu Nè</h2>
+                    <h2 class="display-2">WHERE TO GO</h2>
                     <h4>nói gì thì nói</h4>
                     <h4>cac kieu cac kieu</h4>
                     <h4>font chữ Huyền chọn đi nhé hihi</h4>
@@ -131,7 +131,7 @@ const components = {
                 </div>
             </div>
             <div class="carousel-item">
-                <img style="width: 100%;height: auto;" src="./img/c1.jpg" alt="Sập Mẹ Web r">
+                <img style="width: 100%;height: auto;" src="./img/select2.JPG" alt="Sập Mẹ Web r">
             </div>
         </div>
 
@@ -145,8 +145,8 @@ const components = {
     </div>
     <!-- form input content -->
     <div class="container">
-        <h2>Bạn có địa điểm gì mới</h2>
-        <p>Chia sẻ đi bạn êi</p>
+        <h2>Bạn có địa điểm nào mới</h2>
+        <p>Hãy chia sẻ cho mọi người nhé!</p>
         <form id="form-input-user-wrapper" class="row">
             <div class="left-input-user-wrapper col-md-6 col-12">
                 <div class="input-group input-group-sm bbbx">
@@ -163,27 +163,26 @@ const components = {
                     <input type="text" name="address" class="form-control">
                 </div>
                 <span></span>
+                <span></span>               
+                <span></span>
                 <div class="input-group input-group-sm bbbx">
                     <div class="input-group-prepend">
                         <p>Thể Loại:</p>
                     </div>
-                    <input type="text" name="type" class="form-control">
-                </div>
-                <span></span>
-                <div class="input-group input-group-sm bbbx">
-                    <div class="input-group-prepend">
-                        <p>Hashtag:</p>
-                    </div>
-                    <input type="text" name="hashtag" class="form-control hashTag"">
+                    <input type="text" name="type" class="form-control hashTag"">
             </div>
             <span></span>
             <div class=" input-tag" style="width: fit-content;">
-                    <a class="club">#club</a>
-                    <a class="nightlife">#nightlife</a>
-                    <a class="night">#Buổitối</a>
-                    <a class="noon">#Buổitrưa</a>
-                    <a class="morning">#BuổiSáng</a>
-                    <a class="fun">#Fun</a>
+                    <a class="club">Buổi tối</a>
+                    <a class="nightlife">Buổi sáng</a>
+                    <a class="night">Buổi Trưa</a>
+                    <a class="noon">Ăn uống</a>
+                    <a class="morning">Giải trí</a>
+                    <a class="fun">Phim</a>
+                    <a class="night">Hẹn hò</a>
+                    <a class="noon">Ngoài trời</a>
+                    <a class="morning">Trong nhà</a>
+                    <a class="fun">club</a>
                 </div>
             </div>
             <div class="right-input-user-wrapper col-md-6 col-12">
@@ -193,151 +192,69 @@ const components = {
                 <input type="file" class="upLoad-file btn" style=" margin-top: 10px;" multiple name="ChooseFile"
                     id="" placeholder="Thêm Ảnh">
             </div>
-            <div style="width: 100%;display: flex;justify-content: flex-end;margin-right: 40px;">
+            <div style="width: 100%;display: flex;justify-content: flex-end;margin-right: 15px;margin-top: 10px;">
                 <button class="btn " id="zxcvb"
-                    style="border-radius: 20px;padding-bottom: 0px;padding-top: 0px;height: 38px;color:white;"
+                    style="border-radius: 20px; padding-bottom: 0px; padding-top: 0px; height: 40px; color:white;"
                     type="submit">Đăng</button>
             </div>
         </form>
     </div>
-    <div class="container">
-        <div class="blog-card">
-            <input type="radio" name="select" id="tap-1" checked>
-            <input type="radio" name="select" id="tap-2">
-            <input type="radio" name="select" id="tap-3">
-            <input type="radio" name="select" id="tap-4">
-            <input type="checkbox" id="imgTap">
-            <div class="sliders">
-                <label for="tap-1" class="tap tap-1"></label>
-                <label for="tap-2" class="tap tap-2"></label>
-                <label for="tap-3" class="tap tap-3"></label>
-                <label for="tap-4" class="tap tap-4"></label>
+    
+    <!-- select to show -->
+    <div id="demo2" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo2" data-slide-to="0" class="active"></li>
+            <li data-target="#demo2" data-slide-to="1"></li>
+            <li data-target="#demo2" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img style="width: 100%;opacity: 0.5;" src="./img/select1.JPG" alt="">
             </div>
-            <div class="inner-part row">
-                <div class="col-md-5 col-ms-12" style="padding-right:0px ;">
-                <label for="imgTap" class="img">
-                    <img class="img-1" src="./img/thelavish.jpg">
-                </label>
-                </div>
-                <div class="col-md-7 col-ms-12" style="padding-left:0px ;">
-                <div class="content content-1">
-                    <span class="content-span"><i class="fas fa-user-tie"></i> Nguyễn Văn Cường</span>
-                    <div class="show-time-user">18:00 21/05/2000</div>
-                    <div class="title">The Lavish</div>
-                    <div class="show-type-user">Quán bar</div>
-                    <div class="input-tag padding-0px">
-                        <a>#club</a>
-                        <a>#nightlife</a>
-                        <a>#Buổitối</a>
-                    </div>
-                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo animi
-                        atque aliquid pariatur voluptatem numquam, quisquam. Neque est voluptates doloribus!</div>
-                    <div class="conatiner-fluid home-tim">
-                        <p class="left-incard-wrapper-home">1 <i class="fas fa-heart-circle"></i></p>
-
-                        <div class="right-incard-wapper-home">
-                            <span>12 Hàng Tre, Hoàn Kiếm, Hà Nội</span>
-                            <button class="btn">Liên Hệ</button>
-                        </div>
-
-                    </div>
-                </div>
+            <div class="carousel-item">
+                <img style="width: 100%;opacity: 0.5;" src="./img/select2.JPG" alt="">
             </div>
+            <div class="carousel-item">
+                <img style="width: 100%;opacity: 0.5;" src="./img/c1.jpg" alt="">
             </div>
-            <div class="inner-part row">
-                <div class="col-md-5 col-ms-12" style="padding-right:0px ;">
-                <label for="imgTap" class="img">
-                    <img class="img-2" src="./img/thelavish.jpg">
-                </label>
-                </div>
-                <div class="col-md-7 col-ms-12" style="padding-left:0px ;">
-                <div class="content content-2">
-                    <span class="content-span"><i class="fas fa-user-tie"></i> Nguyễn Văn Cường</span>
-                    <div class="show-time-user">18:00 21/05/2000</div>
-                    <div class="title">The Lavish</div>
-                    <div class="show-type-user">Quán bar</div>
-                    <div class="input-tag padding-0px">
-                        <a>#club</a>
-                        <a>#nightlife</a>
-                        <a>#Buổitối</a>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo2" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        <div class="option-wrapper">
+            <div class="col-xs-6" style="padding: 10px;">
+                <div class="option-nhd">
+                    <p class="title-nek">Các Địa điểm ở Hà Nội</p>
+                    <div class="content-nek">
+                        <p>Bạn đang phân vân không biết nên đi chơi ở đâu?</p>
+                        <p>Hãy để Where To Go gợi ý cho bạn những địa điểm thú vị quanh Hà Nội</p>
                     </div>
-                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo animi
-                        atque aliquid pariatur voluptatem numquam, quisquam. Neque est voluptates doloribus!</div>
-                    <div class="conatiner-fluid home-tim">
-                        <p class="left-incard-wrapper-home">1 <i class="fas fa-heart-circle"></i></p>
-
-                        <div class="right-incard-wapper-home">
-                            <span>12 Hàng Tre, Hoàn Kiếm, Hà Nội</span>
-                            <button class="btn">Liên Hệ</button>
-                        </div>
-
+                    <div class="row justify-content-center">
+                        <button type="button" id="kham-pha-ben-phai" class="btn btn-primary btn-lg">Khám Phá</button>
                     </div>
                 </div>
             </div>
-            </div>
-            <div class="inner-part row">
-                <div class="col-md-5 col-ms-12" style="padding-right:0px ;">
-                <label for="imgTap" class="img">
-                    <img class="img-3" src="./img/thelavish.jpg">
-                </label>
-                </div>
-                <div class="col-md-7 col-ms-12" style="padding-left:0px ;">
-                <div class="content content-3">
-                    <span class="content-span"><i class="fas fa-user-tie"></i> Nguyễn Văn Cường</span>
-                    <div class="show-time-user">18:00 21/05/2000</div>
-                    <div class="title">The Lavish</div>
-                    <div class="show-type-user">Quán bar</div>
-                    <div class="input-tag padding-0px">
-                        <a>#club</a>
-                        <a>#nightlife</a>
-                        <a>#Buổitối</a>
+            <div class="col-xs-6" style="padding: 10px;">
+                <div class="option-nhd">
+                    <p class="title-nek">Các tour quanh Hà Nội</p>
+                    <div class="content-nek">
+                        <p>Bạn đang phân vân không biết nên đi chơi ở đâu?</p>
+                        <p>Hãy để Where To Go gợi ý cho bạn những tour du lịch thú vị quanh Hà Nội</p>
                     </div>
-                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo animi
-                        atque aliquid pariatur voluptatem numquam, quisquam. Neque est voluptates doloribus!</div>
-                    <div class="conatiner-fluid home-tim">
-                        <p class="left-incard-wrapper-home">1 <i class="fas fa-heart-circle"></i></p>
-
-                        <div class="right-incard-wapper-home">
-                            <span>12 Hàng Tre, Hoàn Kiếm, Hà Nội</span>
-                            <button class="btn">Liên Hệ</button>
-                        </div>
-
+                    <div class="row justify-content-center">
+                        <button type="button" id="kham-pha-ben-trai" class="btn btn-primary btn-lg ">Khám Phá</button>
                     </div>
                 </div>
             </div>
-            </div>
-            <div class="inner-part row">
-                <div class="col-md-5 col-ms-12" style="padding-right:0px ;">
-                <label for="imgTap" class="img">
-                    <img class="img-4" src="./img/thelavish.jpg">
-                </label>
-                </div>
-                <div class="col-md-7 col-ms-12" style="padding-left:0px ;">
-                <div class="content content-4">
-                    <span class="content-span"><i class="fas fa-user-tie"></i> Nguyễn Văn Cường</span>
-                    <div class="show-time-user">18:00 21/05/2000</div>
-                    <div class="title">The Lavish</div>
-                    <div class="show-type-user">Quán bar</div>
-                    <div class="input-tag padding-0px">
-                        <a>#club</a>
-                        <a>#nightlife</a>
-                        <a>#Buổitối</a>
-                    </div>
-                    <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo animi
-                        atque aliquid pariatur voluptatem numquam, quisquam. Neque est voluptates doloribus!</div>
-                    <div class="conatiner-fluid home-tim">
-                        <p class="left-incard-wrapper-home">1 <i class="fas fa-heart-circle"></i></p>
-
-                        <div class="right-incard-wapper-home">
-                            <span>12 Hàng Tre, Hoàn Kiếm, Hà Nội</span>
-                            <button class="btn">Liên Hệ</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            </div>
-
+            
         </div>
     </div>
     <!-- show infomation of HaNoi -->
@@ -577,9 +494,6 @@ const components = {
                                     <div class="hashtag-nhd">
                                         <button type="button" class="btn btn-primary btn-sm">Hà Nội</button>
                                     </div>
-                                    <div class="hashtag-nhd">
-                                        <button type="button" class="btn btn-primary btn-sm">Checkin</button>
-                                    </div>
                                     <h5 class="content-nhd">
                                         <a
                                             href="https://mytour.vn/location/13721-cac-hot-instagram-goi-y-nhung-dia-diem-check-in-da-dep-lai-con-free-o-ha-noi.html">
@@ -647,83 +561,29 @@ const components = {
             </div>
         </div>
     </div>
-    <!-- select to show -->
-    <div id="demo2" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-            <li data-target="#demo2" data-slide-to="0" class="active"></li>
-            <li data-target="#demo2" data-slide-to="1"></li>
-            <li data-target="#demo2" data-slide-to="2"></li>
-        </ul>
-
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img style="width: 100%;" src="./img/c3.jpg" alt="">
-            </div>
-            <div class="carousel-item">
-                <img style="width: 100%;" src="./img/c2.jpg" alt="">
-            </div>
-            <div class="carousel-item">
-                <img style="width: 100%;" src="./img/c1.jpg" alt="">
-            </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo2" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo2" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-        <div class="option-wrapper">
-            <div class="left-option-wrapper">
-                <div class="left-option-wrapper-content">
-                    <p class="title-nek">Danh sách các địa điểm</p>
-                    <p class="content-nek">ấn vào đây sẽ ra list danh sách các nơi người dùng đã chia sẻ + data của
-                        đức
-                        <br> ấn vào thử đi</p>
-                    <a id="kham-pha-ben-trai"><button type="button" class="btn btn-primary btn-lg ">Khám
-                            Phá</button></a>
-                </div>
-
-            </div>
-            <div class="right-option-wrapper">
-                <div class="right-option-wrapper-content">
-                    <p class="title-nek">Các tour quanh Hà Nội</p>
-                    <p class="content-nek">ấn vào sẽ hiện ra 1 vài tour gần Hà Nội hoặc list đi chơi luôn <br> ví
-                        dụ: đi
-                        xp -> đi ăn -> đi uống nước</p>
-                    <button type="button" id="kham-pha-ben-phai" class="btn btn-primary btn-lg">Khám Phá</button>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 <section class="chat-container">
-    <div class="current-conversation">
-        <div class="aside-top">
+<div class="current-conversation">
+    <div class="aside-top">
 
-            <div class=" btn-leave-conversation-wrapper" onclick='utils.chatClose()'>
-                <button><i class="far fa-times  btn-icon" id="btn-leave-conversation"></i> </button>
-
-
-
-            </div>
-            <div class=" details-current-conversation">
-
-            </div>
+        <div class=" btn-leave-conversation-wrapper" onclick='utils.chatClose()'>
+            <button><i class="far fa-times  btn-icon" id="btn-leave-conversation"></i> </button>
 
         </div>
-        <div class="list-message-chat">
+        <div class="details-current-conversation">
+            Nguyencuong21520@gmail.com
+        </div>
+    </div>
+    <div class="list-message-chat">
+            
         </div>
         <form class="form-add-message-chat">
             <div class="input-wrapper">
-                <input type="text" name="message" placeholder="Enter your message...">
+                <input type="text" name="message" placeholder="Nhập tin nhắn...">
             </div>
-            <button type="submit"><i class="fas fa-paper-plane" style="color: rgb(4, 88, 167);"></i></button>
+            <button id="aaa" type="submit"><i class="fas fa-paper-plane" style="color: rgb(4, 88, 167);"></i></button>
         </form>
-    </div>
+</div>
 </section>
 <!--XXX footer XXX-->
 <footer>
@@ -773,11 +633,11 @@ const components = {
     </div>
 </footer>`,
     menu: `<div style="margin-top: 20px;" class="container container-card">
-<h1>list</h1>
+<h1 style="text-align: center; margin: 50px;">Các Địa Điểm Vui Chơi Ở Hà Nội</h1>
 <div id="cacdeck" class="row asd">
 </div>
-<div class="alert alert-success"style="top: 55px;right: 10px;position: fixed;">
-    <strong><i class="fad fa-cart-plus"></i>  <span id="countCard">0</span></strong> Hãy tới <a href="./place.html" class="alert-link">trang ramdom</a>.
+<div id="showListSelected" class="alert alert-success" style="right: 10px;position: fixed;">
+    <strong><i class="fad fa-cart-plus"></i>  <span id="countCard"></span></strong> Hãy tới <a href="place.html" class="alert-link">trang ramdom </a>.  <strong onclick="controller.resetCart()"><i class="fad fa-trash-alt"></i></strong>
   </div>
   <div id ="next-pre-page" style = "display: flex; justify-content: center; " >
 
@@ -1094,7 +954,6 @@ const components = {
                                         </li>
                                         <li>Tham quan rừng thông thơ mộng với những thảm lá thông dày và hương thông tinh khiết, ngắm mặt trời lặn dần dưới rặng thông. Tham quan và vui chơi tại công viên trò chơi Wonder Park.</li>
                                         <li>Tham gia các hoạt động thể thao dưới nước như Kayak, lướt ván buồm, thuyền gỗ Whitehall, thuyền buồn Mist và Alaska hoặc du thuyền 5 sao Bayliner. Ăn bữa tối lãng mạn trên thảm cỏ bên bờ hồ thơ mộng với các món BBQ với lửa, đuốc, nến và hoa.</li>
-
                                         <h3 style="text-align: center;">Ngày thứ 2:Flamingo Đại Lải –  Hà Nội</h3>                                                   
                                         <strong>Buổi sáng mọi người có thể lựa chọn các hoạt động vui chơi và tham quan sau:</strong>
                                         <li>Tham gia học làm vườn và trồng rau sạch.</li>
@@ -1615,5 +1474,104 @@ const components = {
             </div>
         </div>
     </div>
-</section>`
+</section>`,
+    loading:`        <div style="height: 100vh; display: flex; align-items: center; justify-content: center;">
+    <div class="lds-heart">
+        <div></div>
+    </div>
+</div>`,
+    adminPage:`
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+  <div class="container-fluid">
+      <a class="navbar-branch mr-4" href="#" onclick="utils.showHomeWhenClickOnLogo()">
+          <img height="45px" src="./img/logo.JPG" style="border-radius: 50%;">
+          Where to go</a>
+      <form class="form-inline input-nav" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Tìm kiếm">
+          <button class="btn btn-outline-light" type="submit"> <i class="fas fa-search"
+                  style="color:  rgb(133, 133, 231);"></i> </button>
+      </form>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Chat</a>
+              </li>
+              <li class="nav-item mr-4">
+                  <a class="nav-link" href="#">Team</a>
+              </li>
+              <li  class="nav-item">
+                  <a id="dangNhapChange" class="nav-link pr-0" href="#">Đăng Nhập</a>
+              </li>
+              <li  class="nav-item">
+                  <a id="dangKyChange" class="nav-link" href="#"></a>
+              </li>
+
+          </ul>
+      </div>
+  </div>
+</nav>
+<section id="body-admin" class="row " >
+
+</section>
+<div style="margin-top: 20px;" class="container container-card">
+  <div id="list-deck" class="row">
+  </div>
+</div>     
+  <script src="./js/card.js"></script>
+  <footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-5">
+                <hr class="light">
+                <h5>Team</h5>
+                <hr class="light">
+                <p>Nguyễn Văn Cường</p>
+                <p>Nguyễn Hồng Hà</p>
+                <p>Phùng Minh Huyền</p>
+                <p>Nguyễn Hữu Đức</p>
+            </div>
+            <div class="col-md-2">
+                <img height="200px" style="padding-top: 20px;" src="./img/logo.JPG">
+            </div>
+            <div class="col-md-5">
+                <hr class="light">
+                <h5>Liên Hệ</h5>
+                <hr class="light">
+                <p>wtgmindx@gmail.com</p>
+                <p>Hanoi, Vietnam</p>
+                <p>0374523912</p>
+                <div class="social-media">
+                    <ul>
+                        <a>
+                            <li id="fbnek"><img src="img/FbIcon.png"></li>
+                        </a>
+                        <a>
+                            <li id="googlenek"><img src="./img/instagram.png"></li>
+                        </a>
+                        <a>
+                            <li id="phonenek"><img src="img/messenger.png"></li>
+                        </a>
+                        <a>
+                            <li id="githubnek"><img src="img/zalo.png"></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <hr class="light-80">
+                <h5>&copy; Where to go!</h5>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+
+  `
+,
 }
